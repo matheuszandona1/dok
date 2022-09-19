@@ -1,0 +1,265 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+@import url('http://fonts.cdnfonts.com/css/amsipro-regular');
+
+html {
+  font-family: 'AmsiPro-Regular', sans-serif;
+}
+
+$fonte-1: Roboto, sans-serif;
+$fonte-2: Raleway, sans-serif;
+
+// cores gerais
+$verde-claro: #40C187;
+$branco: #fff;
+$azul: #004075;
+$azul-claro: #17C3B2;
+$azul-cinza: #99B6CA;
+
+// cores de texto
+$texto-preto: #232223;
+$texto-branco: #FFF;
+$texto-marrom: #3F3C3C;
+$texto-cinza: #707070;
+$texto-cinza-claro: #909090;
+$texto-azul: #004075;
+$texto-azul-claro: #17C3B2;
+
+
+// Variáveis do grid
+$n-device: 1366px;
+$l-device: 1200px;
+$m-device: 768px;
+$s-device: 480px;
+
+// Mixin de media-querie
+@mixin d($size) {
+  @if $size==n {
+    @media screen and (min-width: $l-device) and (max-width: #{$n-device}) {
+      @content;
+    }
+  }
+
+  @else if $size==l {
+    @media screen and (max-width: $l-device) {
+      @content;
+    }
+  }
+
+  @else if $size==m {
+    @media screen and (min-width: $m-device) and (max-width: #{$l-device - 1}) {
+      @content;
+    }
+  }
+
+  @else if $size==s {
+    @media screen and (max-width: #{$m-device - 1}) {
+      @content;
+    }
+  }
+}
+
+
+// general styles
+@import "./general";
+
+// home styles
+@import "./home/header";
+@import "./home/exames";
+@import "./home/especialidades";
+@import "./home/quem-somos";
+@import "./home/nossos-servicos";
+@import "./home/numeros";
+@import "./home/comentarios";
+@import "./home/footer";
+
+// clinica general styles
+@import "./clinica-geral/main";
+
+// internações general styles 
+@import "./internacoes/internacoes-main";
+
+
+// exames general styles 
+@import "./exames/exames-main";
+
+// sobre general styles 
+@import "./sobre/sobre";
+
+// especialidades general styles
+
+@import "./especialidades/especialidades";
+
+@import "./vetpoints/main";
+
+
+
+
+
+
+
+
+
+
+.dog-claw {
+  background-image: url('../assets/fundo-patas.svg');
+  background-repeat: repeat;
+
+  @include d(s) {
+    background-image: url('../assets/fundo-mobile.png');
+    background-repeat: repeat;
+
+  }
+}
+
+.slide-down {
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+  transform: translateY(-50px);
+
+  &.aberto {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+
+  }
+}

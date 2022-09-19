@@ -1,0 +1,213 @@
+.comentarios {
+  overflow: hidden;
+  padding: 140px 0px 200px;
+  @include d(s) {
+    padding-bottom: 200px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font: normal normal 900 30px/20px Roboto;
+    letter-spacing: 0.6px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    color: $texto-marrom;
+
+    @include d(s) {
+      font: normal normal 900 20px/20px Roboto;
+
+    }
+
+    &::before {
+      position: absolute;
+      content: url("../assets/aspas.svg");
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -235%;
+
+      @include d(s) {
+        transform: scale(0.8);
+        top: -200%;
+      }
+    }
+  }
+
+  .swiper-comentarios {
+    height: auto;
+    max-width: 1200px;
+
+    @include d(l) {
+      max-width: 900px;
+    }
+
+    @include d(m) {
+      max-width: 600px;
+    }
+
+    @include d(s) {
+      max-width: 263px;
+    }
+
+    .swiper-slide {
+      .comentarios__container {
+        background-color: #fff;
+        max-width: 750px;
+        height: auto;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 22px;
+        margin: 0 auto;
+        padding: 30px 50px;
+        transition: .2s all ease-in;
+
+        @include d(s) {
+          padding: 30px 20px;
+          max-width: 320px;
+        }
+      }
+
+      .swiper-slide-shadow {
+        display: none !important;
+      }
+
+      .swiper-slide-next {
+        .comentarios__container {
+
+          background-color: #fff;
+        }
+      }
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+      content: url('../assets/arrow-down-circle-fill-5.svg');
+      transform: rotate(180deg);
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+      content: url('../assets/arrow-down-circle-fill-5.svg');
+      transform: rotate(0deg);
+      left: auto;
+      right: 210px;
+      top: 40px;
+
+
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+      left: auto;
+      right: 200px;
+      top: 40px;
+
+      @include d(l) {
+        right: 80px;
+      }
+
+      @include d(m) {
+        right: 30px;
+        top: 50px;
+      }
+
+      @include d(s) {
+        display: none;
+      }
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-prev {
+      left: auto;
+      right: 250px;
+      top: 45px;
+
+      @include d(l) {
+        right: 140px;
+      }
+
+      @include d(m) {
+        right: 80px;
+        top: 55px;
+      }
+
+      @include d(s) {
+        display: none;
+      }
+    }
+  }
+
+  .swiper-slide-active,
+  .swiper-slide-visible {
+    .comentarios__container {
+      background-color: $verde-claro  !important;
+      max-width: 750px;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 22px;
+      margin: 0 auto;
+      padding: 30px 50px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    &--info {
+      display: flex;
+      align-items: center;
+
+      @include d(s) {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: center;
+      }
+    }
+
+    &--nome {
+      margin: 0 20px;
+      font: normal normal 900 20px/14px Roboto;
+      letter-spacing: 0.5px;
+      color: $texto-marrom;
+
+      @include d(s) {
+        margin: 0;
+        margin-left: 10px;
+      }
+    }
+
+    &--profissao {
+      font: normal normal normal 16px/14px Roboto;
+      letter-spacing: 0.32px;
+      color: $texto-marrom;
+      position: relative;
+      margin: 0 10px;
+      margin-top: 5px;
+
+      @include d(s) {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &__comentario {
+    font: normal normal normal 16px/17px Roboto;
+    letter-spacing: 0.43px;
+    color: $texto-marrom;
+    max-width: 740px;
+    text-align: left;
+    line-height: 1em;
+    max-height: 8em;
+  }
+}

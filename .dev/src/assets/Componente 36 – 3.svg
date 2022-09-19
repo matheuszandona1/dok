@@ -1,0 +1,10 @@
+<svg id="Componente_36_3" data-name="Componente 36 – 3" xmlns="http://www.w3.org/2000/svg" width="299" height="61" viewBox="0 0 299 61">
+  <g id="Retângulo_102" data-name="Retângulo 102" fill="#40c187" stroke="#40c187" stroke-width="1">
+    <rect width="299" height="61" rx="8" stroke="none"/>
+    <rect x="0.5" y="0.5" width="298" height="60" rx="7.5" fill="none"/>
+  </g>
+  <text id="Agende_seu_procedimento" data-name="Agende seu procedimento" transform="translate(46 37)" fill="#0a4329" font-size="16" font-family="AmsiPro-SemiBold, AmsiPro ☞" font-weight="600" letter-spacing="0.028em"><tspan x="0" y="0">Agende seu procedimento</tspan></text>
+  <g id="Componente_35_2" data-name="Componente 35 – 2" transform="translate(231 26)" opacity="0">
+    <path id="União_1" data-name="União 1" d="M10,0,5,6ZM0,0,5,6Z" transform="translate(0 10) rotate(-90)" fill="none" stroke="#232223" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

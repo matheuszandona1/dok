@@ -1,0 +1,73 @@
+.capao-geral {
+  background: linear-gradient(90deg, rgba(10, 120, 70, 0.87) 15%, rgba(64, 193, 135, 0.87) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  height: auto;
+  margin-bottom: 35px;
+
+
+
+  &__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 22px 0px;
+
+    @include d(s) {
+      max-width: 320px;
+    }
+  }
+
+  &__path {
+    font: normal normal normal 18px/70px Roboto;
+    letter-spacing: 0.24px;
+    color: $texto-branco;
+
+    @include d(m) {
+      padding-left: 30px;
+    }
+
+    @include d(s) {
+      font: normal normal normal 12px/10px Roboto;
+
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+
+    @include d(m) {
+      padding-left: 30px;
+    }
+
+    @include d(s) {
+      margin-top: 20px;
+    }
+
+    img {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-right: 30px;
+      max-width: 100%;
+      height: auto;
+
+      @include d(s) {
+        width: 20px;
+        padding: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__title {
+    font: normal normal normal 50px/70px Roboto;
+    letter-spacing: 1.75px;
+    color: $texto-branco;
+
+    @include d(s) {
+      font: normal normal normal 20px/20px Roboto;
+
+    }
+  }
+}

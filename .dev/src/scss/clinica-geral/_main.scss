@@ -1,0 +1,223 @@
+.clinica-geral-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include d(m) {
+      justify-content: center;
+    }
+
+    @include d(s) {
+      max-width: 310px;
+      margin: 0 auto;
+    }
+  }
+
+  &__unidades-container {
+    display: flex;
+    flex-direction: column;
+
+    @include d(m) {
+      display: none;
+    }
+
+    @include d(s) {
+      display: none;
+    }
+  }
+
+  &__unidades {
+    margin-bottom: 40px;
+
+    &--link {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 20px;
+
+        g {
+          path {
+            fill: $texto-marrom;
+            stroke: $texto-marrom;
+          }
+        }
+      }
+
+      a {
+        font: normal normal 600 20px/14px Roboto;
+        letter-spacing: 0.4px;
+        color: $texto-marrom;
+      }
+
+      &.unidade-ativa {
+        a {
+          color: $verde-claro;
+        }
+
+        svg {
+          margin-right: 20px;
+
+          g {
+            path {
+              stroke: $verde-claro;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  &__unidade {
+    display: none;
+
+    li {
+      margin: 20px 0px;
+      border-bottom: 1px solid $texto-cinza;
+      padding-bottom: 20px;
+      width: 90%;
+
+      a {
+        font: normal normal normal 20px/14px Roboto;
+        letter-spacing: 0.4px;
+        color: $texto-cinza;
+      }
+    }
+
+  }
+
+  &__desc-unidade {
+    max-width: 765px;
+    color: $texto-marrom;
+
+    img {
+      display: block;
+      border-radius: 8px;
+      margin-bottom: 40;
+
+
+    }
+
+    &--img {
+      max-width: 765px;
+      height: 200px;
+
+      @include d(s) {
+        width: 310px;
+        max-width: 100%;
+        height: 160px;
+        margin: 0 auto;
+        margin-bottom: 40;
+
+      }
+
+    }
+
+    &--title {
+      font: normal normal 900 20px/19px Roboto;
+      margin-bottom: 20px;
+
+
+    }
+
+    &--desc {
+      font: normal normal normal 18px/19px Roboto;
+
+      @include d(s) {
+        max-width: 310px;
+        margin: 0 auto;
+      }
+    }
+
+    &--icons-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 75px;
+
+      @include d(s) {
+        flex-direction: column;
+        max-width: 310px;
+
+      }
+    }
+
+    &--icons-u {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+
+      @include d(s) {
+        flex-direction: row;
+        margin-bottom: 30px;
+      }
+
+
+    }
+
+    &--icons {
+      background-color: $verde-claro;
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+
+      img {
+        margin: 0 auto;
+
+
+      }
+
+      @include d(s) {
+        transform: scale(0.7);
+        align-items: center;
+      }
+
+
+    }
+
+    &--icons-desc {
+      margin-top: 22px;
+      max-width: 280px;
+      font: normal normal 600 20px/19px Roboto;
+      text-align: center;
+
+      @include d(s) {
+        font: normal normal 600 16px/19px Roboto;
+        max-width: 220px;
+        margin-top: 0px;
+        margin-left: 10px;
+        text-align: left;
+      }
+    }
+  }
+
+  &__select {
+    display: none;
+
+    @include d(s) {
+      display: block;
+      width: 100%;
+      border: 1px solid rgba(112, 112, 112, 0.13);
+      text-align: center;
+      padding: 20px 0px;
+      background-color: #fff;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      color: $verde-claro;
+
+
+
+      option {
+        background-color: $verde-claro;
+        color: #fff;
+      }
+    }
+
+  }
+}

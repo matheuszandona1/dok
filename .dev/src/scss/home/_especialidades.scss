@@ -1,0 +1,116 @@
+.especialidades {
+  margin-top: 100px;
+
+  &__title {
+    font: normal normal 900 30px/20px Roboto;
+    text-align: center;
+    margin-bottom: 45px;
+    color: $texto-marrom;
+
+    @include d(s) {
+      font: normal normal 900 20px/20px Roboto;
+
+    }
+  }
+
+  &__container {
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    @include d(m) {
+      max-width: 900px;
+    }
+  }
+
+  &__card {
+    box-shadow: 0 4px 8px #1414141A;
+    border-radius: 8px;
+    padding: 27px 50px;
+    margin-bottom: 40px;
+    background: #fff;
+    transition: all .3s ease-in-out;
+    position: relative;
+
+
+    @include d(m) {
+      padding: 25px 40px;
+    }
+
+    @include d(s) {
+      padding: 15px 20px;
+
+    }
+
+
+    svg {
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &--desc {
+      margin-top: 10px;
+      color: $texto-preto;
+    }
+
+    &:hover {
+      background-color: $verde-claro;
+
+      svg {
+        path {
+          fill: #fff;
+        }
+
+      }
+      .especialidades__card--desc {
+        color: $texto-branco;
+      }
+      &::after{
+        content: url('../assets/setinha-b.svg');
+        position: absolute;
+        left: 2%;
+        right: 0;
+        margin: 0 auto;
+        bottom: -90px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__btn-container {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 300px;
+    text-align: center;
+    background: $verde-claro;
+    background: #40C187 0% 0% no-repeat padding-box;
+    border: 1px solid #40C187;
+    border-radius: 8px;
+    padding: 21px 6px;
+    font: normal normal 600 16px/21px Roboto;
+    position: relative;
+
+    @include d(s) {
+      margin-top: 0px;
+    }
+
+    a {
+      padding: 19px 46px;
+      color: $texto-preto;
+      position: relative;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        &:after {
+          content: url('../assets/setinha.svg');
+          margin: 0 auto;
+          position: absolute;
+          right: 15px;
+        }
+      }
+    }
+  }
+}

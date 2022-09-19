@@ -1,0 +1,12 @@
+<svg id="Componente_65_1" data-name="Componente 65 – 1" xmlns="http://www.w3.org/2000/svg" width="218" height="60" viewBox="0 0 218 60">
+  <g id="Retângulo_1" data-name="Retângulo 1" fill="#40c187" stroke="#40c187" stroke-width="1">
+    <rect width="218" height="60" rx="8" stroke="none"/>
+    <rect x="0.5" y="0.5" width="217" height="59" rx="7.5" fill="none"/>
+  </g>
+  <text id="Agendamento" transform="translate(73 37)" fill="#3f3c3c" font-size="16" font-family="AmsiPro-SemiBold, AmsiPro ☞" font-weight="600" letter-spacing="0.028em"><tspan x="0" y="0">Agendamento</tspan></text>
+  <g id="calendar-check" transform="translate(33 19)">
+    <path id="Caminho_773" data-name="Caminho 773" d="M19.736,15.949a.687.687,0,0,1,0,.973l-4.125,4.125a.688.688,0,0,1-.974,0l-2.062-2.062a.688.688,0,1,1,.974-.973l1.576,1.577,3.639-3.64a.687.687,0,0,1,.973,0Z" transform="translate(-4.812 -6.124)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Caminho_774" data-name="Caminho 774" d="M1.375,6.375v13.75A1.375,1.375,0,0,0,2.75,21.5h16.5a1.375,1.375,0,0,0,1.375-1.375V6.375ZM2.75,2.25A2.75,2.75,0,0,0,0,5V20.125a2.75,2.75,0,0,0,2.75,2.75h16.5A2.75,2.75,0,0,0,22,20.125V5a2.75,2.75,0,0,0-2.75-2.75Z" transform="translate(0 -0.875)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Caminho_775" data-name="Caminho 775" d="M7.438,0a.687.687,0,0,1,.688.688v.688a.688.688,0,0,1-1.375,0V.688A.687.687,0,0,1,7.438,0ZM19.813,0A.687.687,0,0,1,20.5.688v.688a.688.688,0,0,1-1.375,0V.688A.687.687,0,0,1,19.813,0Z" transform="translate(-2.625)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

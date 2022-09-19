@@ -1,0 +1,107 @@
+.numeros {
+  background-color: $verde-claro;
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+
+  @include d(s) {
+    margin-bottom: 100px;
+  }
+
+  &__cachorro-1 {
+    position: absolute;
+    bottom: -33px;
+    transform: scale(0.8);
+    left: -82px;
+    z-index: 1;
+
+    @include d(m) {
+      display: none;
+    }
+
+    @include d(s) {
+      display: none;
+    }
+  }
+
+  &__cachorro-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    @include d(m) {
+      display: none;
+    }
+  }
+
+  &__container {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 75px 0px;
+    position: relative;
+    z-index: 2;
+
+    @include d(s) {
+      max-width: 280px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__content {
+    margin-left: 60px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+
+    }
+
+    @include d(s) {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-left: 0px;
+
+      img {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  &__texto {
+    font: normal normal 900 72px/59px Roboto;
+    color: $texto-branco;
+    letter-spacing: 1.56px;
+    margin-bottom: 80px;
+
+    @include d(s) {
+      font: normal normal 900 32px/39px Roboto;
+      margin-bottom: 30px;
+    }
+
+
+    span {
+      font: normal normal 900 31px/18px Roboto;
+      letter-spacing: 0.74px;
+      color: $texto-marrom;
+
+      @include d(s) {
+        font: normal normal 900 20px/39px Roboto;
+
+      }
+    }
+  }
+
+  &__divider {
+    border-right: 1px solid #fff;
+    padding-right: 70px;
+
+    @include d(s) {
+      border: none;
+      padding-right: 0px;
+    }
+
+  }
+}

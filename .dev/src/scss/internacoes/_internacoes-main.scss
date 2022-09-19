@@ -1,0 +1,154 @@
+.internacoes {
+  background: #fff;
+  max-width: 1250px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px 150px;
+  margin-bottom: 200px;
+  box-shadow: 0px 2px 5px #0000001A;
+  border-radius: 29px;
+
+  @include d(s) {
+    padding: 20px 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @include d(s) {
+    max-width: 340px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    box-shadow: 0px 0px 2px #00000029;
+    border: 1px solid $verde-claro;
+    border-radius: 9px;
+
+    a {
+      padding: 0px 134px;
+
+      @include d(s) {
+        padding: 0px 20px;
+      }
+    }
+
+    svg {
+      margin-right: 15px;
+
+      @include d(s) {
+        margin-right: 10px;
+      }
+    }
+
+    @include d(s) {
+      &:last-of-type {
+        a {
+          padding: 0px 23px;
+        }
+      }
+    }
+  }
+
+  &__flex-btn {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    border-radius: 9px;
+
+
+    &.internacoes-ativa {
+      background-color: $verde-claro;
+
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+
+    p {
+      color: $texto-marrom;
+      font: normal normal normal 16px/14px Roboto;
+    }
+  }
+
+  &__divider {
+    width: 1px;
+    background-color: $verde-claro;
+
+    @include d(s) {
+      display: none;
+    }
+  }
+
+  &__card {
+    color: $texto-marrom;
+
+    &--title-cao {
+      font: normal normal 900 20px/27px Roboto;
+      margin-left: 60px;
+      margin-bottom: 25px;
+
+      @include d(s) {
+        margin-left: 0px;
+        text-align: center;
+      }
+    }
+
+    &--title-gato {
+      font: normal normal 900 20px/27px Roboto;
+      margin-right: 60px;
+      margin-bottom: 25px;
+      text-align: right;
+
+      @include d(s) {
+        margin-right: 0px;
+        text-align: center;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 18px;
+      margin-bottom: 40px;
+    }
+
+    &--desc {
+      margin-bottom: 20px;
+      font: normal normal normal 16px/18px Roboto;
+
+      @include d(s) {
+        &:last-of-type {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  &__card-gato {
+    display: none;
+  }
+
+  &__btn-atendente {
+    text-align: center;
+
+    a {
+      background-color: $verde-claro;
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+      padding: 16px 0px;
+      color: $texto-marrom;
+      font: normal normal 900 15px/14px Roboto;
+    }
+  }
+}

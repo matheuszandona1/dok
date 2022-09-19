@@ -1,0 +1,66 @@
+.exame {
+  padding-bottom: 200px;
+  margin-top: 50px;
+
+  &__container {
+    background: #fff;
+    box-shadow: 0px 2px 11px #00000024;
+    border-radius: 29px;
+    box-sizing: border-box;
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 40px 64px;
+    color: $texto-marrom;
+
+    @include d(s) {
+      max-width: 340px;
+      padding: 24px 22px;
+    }
+  }
+
+  &__title {
+    font: normal normal 900 35px/14px Roboto;
+    letter-spacing: 0.7px;
+    margin-bottom: 25px;
+
+    @include d(s) {
+      font: normal normal 900 20px/14px Roboto;
+
+    }
+  }
+
+  &__desc {
+    font: normal normal normal 16px/18px Roboto;
+    margin-bottom: 50px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    &--input {
+      border: 1px solid #D6D6D6;
+      border-radius: 10px;
+      text-align: center;
+      padding: 26px 0px;
+      margin-bottom: 30px;
+
+      @include d(s) {
+        padding: 20px 0px;
+      }
+    }
+
+    &--btn {
+      background-color: $verde-claro;
+      border-radius: 10px;
+      border: none;
+      padding: 27px 0px;
+      font: normal normal 600 20px/14px Roboto;
+      color: $texto-marrom;
+
+      @include d(s) {
+        padding: 22px 0px;
+      }
+    }
+  }
+}

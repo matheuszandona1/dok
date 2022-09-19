@@ -1,0 +1,129 @@
+.exames {
+  margin-top: 50px;
+  color: $texto-marrom;
+
+
+  &__container {
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0px 2px 5px #0000001A;
+    border-radius: 29px;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    @include d(m) {
+      max-width: 900px;
+      padding: 20px 20px;
+    }
+
+    @include d(s) {
+      max-width: 290px;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+    }
+  }
+
+  &__content {
+    max-width: 400px;
+    padding: 10px 40px;
+    border-right: 1px solid $texto-marrom;
+
+    @include d(m) {
+      padding: 10px 20px;
+    }
+
+    @include d(s) {
+      border: none;
+      padding: 10px 25px;
+    }
+  }
+
+  &__title {
+    font: normal normal 900 30px/20px Roboto;
+    margin-bottom: 10px;
+
+    @include d(s) {
+      text-align: center;
+      font: normal normal 900 20px/20px Roboto;
+
+    }
+
+  }
+
+  &__desc {
+    font: normal normal normal 16px/18px Roboto;
+
+    @include d(s) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__resultados {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @include d(m) {
+      padding-left: 15px;
+    }
+
+    @include d(s) {
+      flex-direction: column;
+      padding-left: 0px;
+    }
+
+    a {
+      color: $texto-marrom;
+      font-size: 14px;
+
+      @include d(m) {
+        font: normal normal normal 14px/16px Roboto;
+      }
+    }
+
+    &--resultado {
+      border: 2px solid $verde-claro;
+      border-radius: 8px;
+      padding: 20px 20px;
+      position: relative;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        &:after {
+          content: url('../assets/setinha.svg');
+          margin: 0 auto;
+          position: absolute;
+          right: 10px;
+        }
+      }
+
+      @include d(s) {
+        margin-bottom: 20px;
+        padding: 15px 20px;
+      }
+    }
+
+    &--preparacao {
+      border: 2px solid $verde-claro;
+      border-radius: 8px;
+      padding: 20px 20px;
+      background-color: $verde-claro;
+      position: relative;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        &:after {
+          content: url('../assets/setinha.svg');
+          margin: 0 auto;
+          position: absolute;
+          right: 10px;
+        }
+      }
+
+      @include d(s) {
+        padding: 15px 20px;
+      }
+    }
+  }
+}

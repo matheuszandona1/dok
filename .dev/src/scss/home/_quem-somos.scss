@@ -1,0 +1,133 @@
+.quem-somos {
+  margin-top: 120px;
+  margin-bottom: 150px;
+
+  .swiper-quemsomos {
+    .swiper-slide {
+      height: 430px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.62) 15%, rgba(255, 255, 255, 0.62) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    }
+
+    @include d(m) {
+
+      .swiper-button-next,
+      .swiper-rtl .swiper-button-prev {
+        left: auto;
+        right: 100px;
+
+        @include d(s) {}
+      }
+
+      .swiper-button-prev,
+      .swiper-rtl .swiper-button-prev {
+        left: 60px;
+        right: auto;
+      }
+    }
+
+    @include d(s) {
+
+      .swiper-button-next,
+      .swiper-rtl .swiper-button-prev {
+        left: auto;
+        right: 30px;
+        top: 78px;
+      }
+
+      .swiper-button-next {
+        &::after {
+          transform: scale(0.5);
+        }
+      }
+
+      .swiper-button-prev {
+        &::after {
+          transform: scale(0.5) rotate(180deg);
+        }
+      }
+
+      .swiper-button-prev,
+      .swiper-rtl .swiper-button-prev {
+        right: 70px;
+        top: 75px;
+        left: auto;
+      }
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+      right: 100px;
+      left: auto;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 100px;
+    right: auto;
+}
+  }
+
+  &__container {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include d(m) {
+      max-width: 700px;
+    }
+
+    @include d(s) {
+      max-width: 310px;
+    }
+  }
+
+  &__title {
+    font: normal normal 900 50px/24px Roboto;
+    color: $texto-marrom;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+
+    @include d(s) {
+      font: normal normal 900 20px/24px Roboto;
+
+    }
+  }
+
+  &__desc {
+    max-width: 450px;
+    font: normal normal normal 18px/18px Roboto;
+    margin-bottom: 40px;
+
+    @include d(m) {
+      max-width: 380px;
+    }
+
+    @include d(s) {
+      font: normal normal normal 16px/18px Roboto;
+    }
+  }
+
+  &__btn {
+    color: $texto-marrom;
+    background-color: $verde-claro;
+    max-width: 157px;
+    text-align: center;
+    border: 1px solid #40C187;
+    border-radius: 8px;
+    padding: 21px 0px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    font-weight: 800;
+
+    &:hover {
+      &:after {
+        content: url('../assets/setinha.svg');
+        margin: 0 auto;
+        position: absolute;
+        right: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,544 @@
+.header {
+  position: relative;
+
+  &__container {
+    max-width: 992px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px 0px;
+
+    @include d(m) {
+      max-width: 900px;
+    }
+
+    @include d(s) {
+      max-width: 360px;
+      padding: 10px 0px;
+    }
+  }
+
+  &__icon {
+    img {
+      max-width: 100%;
+      height: auto;
+
+      @include d(s) {
+        max-width: 50%;
+        height: auto;
+      }
+
+
+    }
+
+    &--btn {
+      display: none;
+
+      @include d(s) {
+
+        display: block;
+        background-color: transparent;
+        border: none;
+
+      }
+    }
+
+    @include d(s) {
+
+      display: flex;
+      align-items: center;
+
+      img {
+        border-left: 1px solid $texto-cinza-claro ;
+        padding-left: 20px;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__options {
+    display: flex;
+
+    &--ul {
+      display: flex;
+      align-items: center;
+      width: 685px;
+      justify-content: space-evenly;
+
+      @include d(m) {
+        max-width: 520px;
+      }
+
+      @include d(s) {
+        max-width: 160px;
+      }
+    }
+
+    &--img {
+      display: flex;
+      padding: 19px 40px;
+      border-radius: 8px;
+      border: 1px solid #40C187;
+      max-height: 60px;
+      position: relative;
+      align-items: center;
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        &.telefone {
+          p {
+            color: #fff;
+          }
+
+          ::after {
+            content: '0800-0000';
+            position: absolute;
+            color: $texto-marrom;
+            top: 18px;
+            right: 19px;
+          }
+        }
+      }
+
+      @include d(m) {
+        padding: 19px 20px;
+      }
+
+      @include d(s) {
+        padding: 9px;
+
+        img {
+          transform: scale(0.7);
+        }
+      }
+    }
+
+    &--img-first {
+      background-color: $verde-claro;
+      padding: 18px 21px;
+      position: relative;
+
+      &:hover {
+        &:after {
+          position: absolute;
+          content: url('../assets/setinha.svg');
+          color: $texto-marrom;
+          right: 10px;
+        }
+
+      }
+
+      @include d(m) {
+        padding: 17px 15px;
+      }
+
+      @include d(s) {
+        padding: 6px;
+      }
+    }
+
+    &--img-second {
+      padding: 17px 30px;
+      position: relative;
+
+      &:hover {
+        &:after {
+          position: absolute;
+          content: url('../assets/setinha.svg');
+          color: $texto-marrom;
+          right: 10px;
+          top: 21px;
+        }
+
+      }
+
+      @include d(m) {
+        padding: 16px;
+      }
+
+      @include d(s) {
+        padding: 6px;
+      }
+    }
+
+    &--text {
+      padding-left: 12px;
+      color: $texto-marrom;
+
+      @include d(s) {
+        display: none;
+      }
+    }
+  }
+
+  &__nav {
+    @include d(s) {
+      display: none;
+    }
+
+    width: 100%;
+    border-top: 1px solid #b2b2b22e;
+
+    &--ul {
+      justify-content: space-between;
+      display: flex;
+      max-width: 992px;
+      margin: 0 auto;
+      padding: 20px 0;
+      position: relative;
+      z-index: 9999;
+
+      @include d(m) {
+        max-width: 900px;
+      }
+
+      a {
+        color: $texto-preto;
+        font: normal normal 600 16px/20px Roboto;
+        position: relative;
+        text-transform: uppercase;
+
+        &::before {
+          display: block;
+          content: '';
+          background-color: $texto-preto;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -15%;
+          margin: 0 auto;
+          width: 0px;
+          height: 1px;
+          transition: all .3s ease-in-out;
+
+        }
+
+        &:hover {
+          &::before {
+            width: 100%;
+          }
+        }
+
+      }
+    }
+
+    &--submenus {
+      position: relative;
+
+      ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background-color: $verde-claro;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        li {
+          padding: 0.5em;
+          text-align: center;
+
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    &--hover-ul-container {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    &--hover-container {
+      border-right: 1px solid $texto-marrom ;
+      padding-right: 50px;
+
+      @include d(m) {
+        padding-right: 15px;
+        padding-left: 20px;
+      }
+
+      &:first-of-type {
+        padding-left: 50px;
+
+        @include d(m) {
+          padding-left: 15px;
+        }
+      }
+
+      &:last-of-type {
+        border: none;
+      }
+
+      li {
+        margin: 20px 0px;
+      }
+    }
+
+    &--links {
+      font: normal normal normal 16px/14px Roboto;
+      letter-spacing: 0.32px;
+      color: $texto-marrom;
+    }
+  }
+
+  &__nav-mobile {
+    position: absolute;
+    left: -100vw;
+    top: 100%;
+    height: calc(100vh - 60px);
+    background-color: #fff;
+    z-index: 998;
+    width: 100%;
+    max-width: 240px;
+    box-shadow: 0px 16px 13px #00000029;
+    border: 1px solid #7070701A;
+    transition: .3s all ease-in-out;
+
+    &.nav-mobile-ativo {
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .footer__socials {
+        padding-bottom: 40px;
+        margin: 0 auto;
+        max-width: 200px;
+
+        a {
+          margin: 0;
+        }
+
+        img {
+          transform: scale(0.8);
+        }
+      }
+    }
+
+    &--container {
+
+      max-width: 175px;
+      margin: 0 30px;
+      padding-top: 40px;
+    }
+
+    ul > li {
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(63, 60, 60, 0.26);
+      padding-bottom: 10px;
+
+      a {
+        font: normal normal bold 16px/20px Roboto;
+        letter-spacing: -0.06px;
+        color: $texto-marrom;
+        text-transform: uppercase;
+      }
+    }
+
+    &--cascata-children {
+      margin-top: 20px;
+      display: none;
+    }
+
+    &--links {
+      display: block;
+      padding: 0;
+      margin: 10px 0px;
+      font-weight: 400 !important;
+      margin-left: 15px;
+      border-bottom: 1px solid rgba(63, 60, 60, 0.16);
+      padding-bottom: 10px;
+      width: 80%;
+
+    }
+
+    &--options {
+      display: flex;
+      flex-direction: column;
+      max-width: 175px;
+      margin-top: 35px;
+    }
+
+    &--buttons {
+      max-width: 175px;
+      margin-bottom: 10px;
+    }
+
+    &--text {
+      display: block;
+    }
+  }
+}
+
+.swiper-capao {
+  width: 100%;
+
+  .swiper-slide {
+    background: linear-gradient(90deg, rgba(64, 193, 135, 0.40379901960784315) 15%, rgba(64, 193, 135, 0.40379901960784315) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+
+    @include d(s) {
+      height: 214px;
+    }
+  }
+
+  .swiper-pagination {
+    display: none;
+
+    @include d(s) {
+      display: block
+    }
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 0.49;
+    background-color: #fff;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #fff;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 120px;
+    left: auto;
+    transition: .2s all ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    @include d(m) {
+      right: 100px;
+    }
+
+    @include d(s) {
+      display: none;
+    }
+  }
+
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-prev {
+    left: 120px;
+    right: auto;
+    transition: .2s all ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    @include d(m) {
+      left: 100px;
+    }
+
+    @include d(s) {
+      display: none;
+    }
+  }
+
+  &:hover {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: block;
+    }
+
+    .swiper-button-prev {
+      transform: rotate(-180deg);
+
+      &:hover {
+        transform: rotate(-180deg) scale(1.2);
+      }
+    }
+  }
+}
+
+
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: url('../assets/arrow-down-circle-fill-1.svg');
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: url('../assets/arrow-down-circle-fill.svg');
+  transform: rotate(180deg);
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.slide__container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  @include d(m) {
+    max-width: 650px;
+  }
+}
+
+.slide__desc {
+  font: normal normal normal 60px/70px Roboto;
+  color: $texto-branco;
+  text-align: center;
+
+  @include d(m) {
+    font: normal normal normal 40px/40px Roboto;
+
+  }
+
+  @include d(s) {
+    font: normal normal normal 22px/24px Roboto;
+
+  }
+
+  span {
+    font: normal bold normal 60px/70px Roboto;
+
+    @include d(m) {
+      font: normal bold normal 40px/50px Roboto;
+
+    }
+
+    @include d(s) {
+      font: normal bold normal 22px/24px Roboto;
+
+    }
+  }
+}

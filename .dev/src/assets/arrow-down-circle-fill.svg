@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.003" height="55.003" viewBox="0 0 55.003 55.003">
+  <g id="arrow-down-circle-fill" transform="translate(0 0.003)">
+    <g id="arrow-down-circle-fill-2" data-name="arrow-down-circle-fill" transform="translate(0 54.997) rotate(-90)">
+      <ellipse id="Elipse_2" data-name="Elipse 2" cx="14.998" cy="14.999" rx="14.998" ry="14.999" transform="translate(13.316 11.686)" fill="#fff"/>
+      <path id="Caminho_41" data-name="Caminho 41" d="M55,27.5A27.5,27.5,0,1,1,27.5,0,27.5,27.5,0,0,1,55,27.5ZM29.219,17.188a1.719,1.719,0,1,0-3.437,0V33.665L18.4,26.284a1.721,1.721,0,0,0-2.434,2.434L26.282,39.031a1.719,1.719,0,0,0,2.434,0L39.029,28.718a1.721,1.721,0,1,0-2.434-2.434l-7.376,7.381Z" fill="#40c187" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
