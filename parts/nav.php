@@ -23,6 +23,7 @@
 	</div>
 	<div class="header__options">
 		<ul class="header__options--ul">
+			<?php if(@$options['ctas']['agendamento']): ?>
 			<li class="header__options--li">
 				<a class="header__options--a" href="<?php echo(@$options['ctas']['agendamento']) ?>">
 					<div class="header__options--img header__options--img-first">
@@ -31,6 +32,8 @@
 					</div>
 				</a>
 			</li>
+			<?php endif;?>
+			<?php if(@$options['ctas']['whatsapp']): ?>
 			<li class="header__options--li">
 				<a class="header__options--a" href="<?php echo(@$options['ctas']['whatsapp']) ?>">
 					<div class="header__options--img header__options--img-second">
@@ -39,6 +42,8 @@
 					</div>
 				</a>
 			</li>
+			<?php endif;?>
+			<?php if(@$options['ctas']['telefone']): ?>
 			<li class="header__options--li">
 				<a class="header__options--a" href="tel://<?php echo(@$options['ctas']['telefone']) ?>">
 					<div class="header__options--img telefone">
@@ -47,6 +52,7 @@
 					</div>
 				</a>
 			</li>
+			<?php endif;?>
 		</ul>
 	</div>
 </div>

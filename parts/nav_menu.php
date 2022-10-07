@@ -92,3 +92,23 @@
 		</a>
 	</div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	var $ = $ || jQuery;
+
+	$('.header__nav--hover, .header__nav--hover-ul').hover(function() {
+		$('.header__nav--hover-ul').addClass('aberto');
+	}, function() {
+		$('.header__nav--hover-ul').removeClass('aberto');
+	});
+
+	$(".header__nav-mobile--cascata").click(function(e) {
+		$(this).parent().find(".header__nav-mobile--cascata-children").slideToggle();
+	})
+
+	$(".header__icon--btn").click(function(e) {
+		$(".header__nav-mobile").toggleClass('nav-mobile-ativo');
+	})
+	
+});
+</script>
