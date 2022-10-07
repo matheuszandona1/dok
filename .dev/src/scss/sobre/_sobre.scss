@@ -110,9 +110,10 @@
       }
     }
     i{
-      transform: scale(2);
+      
       &::before{
-        color: $verde-claro
+        color: $verde-claro;
+        font-size: 32px;
       }
     }
 

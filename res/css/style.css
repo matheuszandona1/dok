@@ -2407,12 +2407,9 @@ html {
   }
 }
 
-.sobre-main__card i {
-  transform: scale(2);
-}
-
 .sobre-main__card i:before {
   color: #40c187;
+  font-size: 32px;
 }
 
 .sobre-main__card svg path {
