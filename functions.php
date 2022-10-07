@@ -43,7 +43,7 @@ add_action('after_setup_theme', 'frmnt_setup');
  * Import CPTs
  */
 require get_template_directory() . '/inc/custom-post-types/especialidades.php';
-// require get_template_directory() . '/inc/custom-post-types/professores.php';
+require get_template_directory() . '/inc/custom-post-types/unidades.php';
 
 /**
  * Option Pages
