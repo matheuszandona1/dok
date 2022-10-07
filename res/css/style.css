@@ -2407,6 +2407,10 @@ html {
   }
 }
 
+.sobre-main__card i {
+  transform: scale(2);
+}
+
 .sobre-main__card svg path {
   fill: #40c187;
 }
