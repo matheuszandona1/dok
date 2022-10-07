@@ -156,16 +156,19 @@
     margin-left: 90px;
     display: flex;
     justify-content: space-between;
-    overflow: auto;
 
+    
     img {
       max-width: 290px;
+      width: 100%;
+      object-fit: cover;
       height: 198px;
       margin-right: 30px;
       border-radius: 8px;
     }
-
+    
     @include d(s) {
+    overflow: auto;
       margin-left: 35px;
     }
   }

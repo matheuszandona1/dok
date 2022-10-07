@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40.002" height="40" viewBox="0 0 40.002 40">
-  <g id="arrow-down-circle-fill" transform="translate(40.002) rotate(90)">
-    <ellipse id="Elipse_2" data-name="Elipse 2" cx="10.981" cy="10.981" rx="10.981" ry="10.981" transform="translate(9.608 7.981)" fill="#fff"></ellipse>
-    <path id="Caminho_41" data-name="Caminho 41" d="M40,20A20,20,0,1,1,20,0,20,20,0,0,1,40,20ZM21.25,12.5a1.25,1.25,0,1,0-2.5,0V24.483l-5.366-5.368a1.252,1.252,0,0,0-1.77,1.77l7.5,7.5a1.25,1.25,0,0,0,1.77,0l7.5-7.5a1.252,1.252,0,1,0-1.77-1.77L21.25,24.483Z" fill="#3f3c3c" fill-rule="evenodd"></path>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40.002" height="40"><g id="arrow-down-circle-fill" transform="rotate(90 20.001 20.001)"><circle id="Elipse_2" data-name="Elipse 2" cx="10.981" cy="10.981" transform="translate(9.608 7.981)" fill="#fff" r="10.981"/><path id="Caminho_41" data-name="Caminho 41" d="M40 20A20 20 0 1 1 20 0a20 20 0 0 1 20 20Zm-18.75-7.5a1.25 1.25 0 1 0-2.5 0v11.983l-5.366-5.368a1.252 1.252 0 0 0-1.77 1.77l7.5 7.5a1.25 1.25 0 0 0 1.77 0l7.5-7.5a1.252 1.252 0 1 0-1.77-1.77l-5.364 5.368Z" fill="#3f3c3c" fill-rule="evenodd"/></g></svg>
