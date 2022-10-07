@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="32.5"><g id="building" transform="translate(-1.75 -1.75)" fill="#40c187" stroke="#40c187" stroke-width="1"><path id="Caminho_814" data-name="Caminho 814" d="M31.5 2.25H18a2.252 2.252 0 0 0-2.25 2.25v11.25H4.5A2.252 2.252 0 0 0 2.25 18v15.75h31.5V4.5a2.252 2.252 0 0 0-2.25-2.25ZM10.125 31.5v-7.875h4.5V31.5Zm21.375 0H16.875v-9a1.125 1.125 0 0 0-1.125-1.125H9A1.125 1.125 0 0 0 7.875 22.5v9H4.5V18H18V4.5h13.5Z"/><path id="Caminho_815" data-name="Caminho 815" d="M20.25 9h2.25v2.25h-2.25Z"/><path id="Caminho_816" data-name="Caminho 816" d="M27 9h2.25v2.25H27Z"/><path id="Caminho_817" data-name="Caminho 817" d="M20.25 15.75h2.25V18h-2.25Z"/><path id="Caminho_818" data-name="Caminho 818" d="M27 15.75h2.25V18H27Z"/><path id="Caminho_819" data-name="Caminho 819" d="M20.25 22.5h2.25v2.25h-2.25Z"/><path id="Caminho_820" data-name="Caminho 820" d="M27 22.5h2.25v2.25H27Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="32.5" viewBox="0 0 32.5 32.5">
+  <g id="building" transform="translate(-1.75 -1.75)">
+    <path id="Caminho_814" data-name="Caminho 814" d="M31.5,2.25H18A2.252,2.252,0,0,0,15.75,4.5V15.75H4.5A2.252,2.252,0,0,0,2.25,18V33.75h31.5V4.5A2.252,2.252,0,0,0,31.5,2.25ZM10.125,31.5V23.625h4.5V31.5Zm21.375,0H16.875v-9a1.125,1.125,0,0,0-1.125-1.125H9A1.125,1.125,0,0,0,7.875,22.5v9H4.5V18H18V4.5H31.5Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_815" data-name="Caminho 815" d="M20.25,9H22.5v2.25H20.25Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_816" data-name="Caminho 816" d="M27,9h2.25v2.25H27Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_817" data-name="Caminho 817" d="M20.25,15.75H22.5V18H20.25Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_818" data-name="Caminho 818" d="M27,15.75h2.25V18H27Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_819" data-name="Caminho 819" d="M20.25,22.5H22.5v2.25H20.25Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+    <path id="Caminho_820" data-name="Caminho 820" d="M27,22.5h2.25v2.25H27Z" fill="#40c187" stroke="#40c187" stroke-width="1"></path>
+  </g>
+</svg>

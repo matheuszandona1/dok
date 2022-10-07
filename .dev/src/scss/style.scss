@@ -242,6 +242,7 @@ $s-device: 480px;
 .dog-claw {
   background-image: url('../assets/fundo-patas.svg');
   background-repeat: repeat;
+  background-position: top right;
 
   @include d(s) {
     background-image: url('../assets/fundo-mobile.png');
