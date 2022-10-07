@@ -2409,7 +2409,7 @@ html {
 
 .sobre-main__card i:before {
   color: #40c187;
-  font-size: 32px;
+  font-size: 60px;
 }
 
 .sobre-main__card svg path {
@@ -2428,7 +2428,7 @@ html {
   max-width: 210px;
   text-transform: uppercase;
   margin-left: 30px;
-  font: 900 21px / 27px Roboto;
+  font: 900 24px / 27px Roboto;
 }
 
 @media screen and (max-width: 767px) {
