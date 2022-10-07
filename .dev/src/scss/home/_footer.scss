@@ -1,9 +1,10 @@
 .footer {
   background-color: $verde-claro;
 
-  a{
+  a {
     position: relative;
-    &::before{
+
+    &::before {
       position: absolute;
       content: '';
       width: 0px;
@@ -12,8 +13,9 @@
       bottom: -3px;
       transition: .3s all ease-in-out;
     }
-    &:hover{
-      &::before{
+
+    &:hover {
+      &::before {
         width: 100%;
       }
     }
@@ -101,7 +103,8 @@
     a {
       margin-bottom: 15px;
     }
-    .chat{
+
+    .chat {
       padding-right: 20px;
     }
   }
@@ -113,8 +116,9 @@
       &:first-of-type {
         margin-left: 0px;
       }
-      &:hover{
-        &::before{
+
+      &:hover {
+        &::before {
           width: 0px;
         }
       }
@@ -178,5 +182,53 @@
       }
     }
 
+  }
+}
+
+.vetpoints-redirect {
+  padding-bottom: 200px;
+
+  &__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #004075;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 39px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    position: relative;
+    @include d(s){
+      max-width: 350px;
+      margin: 0 auto;
+    }
+  }
+
+  &__titulo {
+    font-size: 45px;
+    font-weight: 800;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    @include d(s){
+      font-size: 20px;
+      width: 90%;
+
+    }
+  }
+
+  &__btn {
+    background-color: #17C3B2;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+    position: absolute;
+    color: #fff;
+    width: 220px;
+    padding: 20px 0px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }

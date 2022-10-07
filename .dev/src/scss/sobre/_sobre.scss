@@ -127,6 +127,7 @@
       color: $texto-marrom;
       margin-left: 30px;
       max-width: 210px;
+      text-transform: uppercase;
 
       @include d(s) {
         font: normal normal 900 14px/22px Roboto;

@@ -98,7 +98,7 @@
       background-color: transparent;
       border: none;
       padding: 0;
-      padding: 20px 0px;
+      padding: 0px;
       border-bottom: 1px solid $texto-cinza;
       font: normal normal normal 18px/14px Roboto;
       letter-spacing: 0.4px;
@@ -136,7 +136,7 @@
 
     &--svg {
       background-color: $verde-claro;
-      padding: 5px 10px;
+      padding: 12px 12px;
       border-radius: 50%;
     }
 

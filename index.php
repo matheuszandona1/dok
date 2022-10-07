@@ -25,6 +25,10 @@ $data = get_fields('options');
 				
 		<!-- Seção de Comentários sobre o DOK -->
 		<?php get_template_part("parts/home/comentarios"); ?>
+
+		<!-- Seção de redirect para o vetpoints -->
+		<?php get_template_part("parts/home/vetpoints"); ?>
+
 	</main>
 </div>
 
