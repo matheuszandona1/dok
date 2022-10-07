@@ -13,8 +13,6 @@ $options = array(
 					<a href="<?php echo(@$options['about']['link']['url']) ?>" class="quem-somos__btn">Leia Mais</a>
 				</div>
 			</div>
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
 		</div>
 	</div>
 </section>

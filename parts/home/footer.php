@@ -35,17 +35,6 @@
 				prevEl: '.swiper-button-prev',
 			},
 		});
-		const swiperQuemSomos = new Swiper(".swiper-quemsomos", {
-			pagination: {
-				el: ".swiper-pagination1",
-				dynamicBullets: false,
-				clickable: true,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		});
 		const swiperComentarios = new Swiper(".swiper-comentarios", {
 			effect: "cards",
 			grabCursor: true,
