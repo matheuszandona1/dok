@@ -973,6 +973,7 @@ html {
   background-attachment: scroll, scroll;
   background-origin: padding-box, padding-box;
   background-clip: border-box, border-box;
+  padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
