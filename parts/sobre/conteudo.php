@@ -52,7 +52,7 @@ function wph_add_class_for_p_tag($content, $class) {
 			</div>
 			<?php echo(wph_add_class_for_p_tag($pageData['infra_texto'],'sobre-main__text-p')) ?>
 			<div class="sobre-main__content-mid">
-				<?php foreach($pageData['mosaico'] as $picture): ?>
+				<?php foreach(@$pageData['mosaico'] as $picture): ?>
 					<img src="<?php echo($picture['sizes']['large']) ?>" alt="<?php echo($picture['description']) ?>">
 				<?php endforeach; ?>
 			</div>
