@@ -111,6 +111,9 @@
     }
     i{
       transform: scale(2);
+      &::before{
+        color: $verde-claro
+      }
     }
 
     svg {

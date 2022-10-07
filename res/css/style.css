@@ -2411,6 +2411,10 @@ html {
   transform: scale(2);
 }
 
+.sobre-main__card i:before {
+  color: #40c187;
+}
+
 .sobre-main__card svg path {
   fill: #40c187;
 }
