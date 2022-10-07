@@ -8,4 +8,5 @@ $pageData = get_fields();
 // print_r($pageData);
 ?>
 <?php get_header("header", array("customHeader" => "parts/header")) ?>
-<?php get_template_part("footer"); ?>
+<?php get_template_part("parts/vetpoints/conteudo") ?>
+<?php get_footer(); ?>

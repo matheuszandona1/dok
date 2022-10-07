@@ -11,18 +11,7 @@
 			console.log('click');
 		})
 
-		$(".vetpoints__faq--container__button").click(function(e) {
-			$(this).toggleClass("btn-ativo");
-			$(this).parent().find(".vetpoints__faq--container__question").slideToggle();
-		})
-
-		$(".vetpoints__celular--checkbox").click(function(e) {
-			let id = $(this).attr('data-celular');
-			$(`.vetpoints__celular--checkbox:not([data-celular='${id}'])`).removeClass('checkbox-ativo');
-			$(`.vetpoints__celular--checkbox[data-celular='${id}']`).addClass('checkbox-ativo');
-			$(`.vetpoints__celular--celular-int__checkbox:not([data-celular='${id}'])`).removeClass('square-ativo');
-			$(`.vetpoints__celular--celular-int__checkbox[data-celular='${id}']`).addClass('square-ativo');
-		});
+		
 
 		const swiperHome = new Swiper(".swiper-capao", {
 			pagination: {
@@ -43,14 +32,5 @@
 				prevEl: '.swiper-button-prev',
 			},
 		});
-		const swiperVetpoints = new Swiper(".vetpoints__comentarios--comments", {
-			slidesPerView: "auto",
-			grabCursor: true,
-			centeredSlides: true,
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		})
 	});
 </script>
