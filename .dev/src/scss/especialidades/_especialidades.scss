@@ -15,7 +15,6 @@
     @include d(s) {
       flex-direction: column;
     }
-
   }
 
   &__form {
@@ -26,9 +25,8 @@
       max-width: 320px;
     }
 
-
     input {
-      border: 1px solid #D6D6D6;
+      border: 1px solid #d6d6d6;
       border-radius: 8px;
       padding: 10px 12px;
       width: 100%;
@@ -37,7 +35,6 @@
         box-sizing: border-box;
         padding: 10px 20px;
       }
-
 
       placeholder {
         font: normal normal normal 16px/14px Roboto;
@@ -57,9 +54,7 @@
       @include d(s) {
         right: 3%;
       }
-
     }
-
   }
 
   &__list {
@@ -73,21 +68,20 @@
       &.ativo {
         border-top: 2px solid $verde-claro;
         margin: 25px auto;
+        padding-top: 10px;
 
         svg {
           g {
             path {
               fill: $verde-claro;
               stroke: $verde-claro;
-
             }
-
           }
         }
+        a {
+          color: $verde-claro;
+        }
       }
-
-
-
     }
 
     svg {
@@ -109,7 +103,6 @@
 
       &.ativo {
         color: $verde-claro;
-
       }
     }
   }
@@ -148,7 +141,6 @@
 
       @include d(s) {
         font: normal normal 600 18px/19px Roboto;
-
       }
     }
 
@@ -168,7 +160,6 @@
       justify-content: space-between;
       overflow: auto;
 
-
       img {
         width: 206px;
         height: 206px;
@@ -177,7 +168,6 @@
         @include d(s) {
           margin-right: 20px;
         }
-
       }
     }
   }
