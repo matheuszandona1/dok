@@ -11,11 +11,12 @@
 			<div class="especialidade__container">
 				<?php get_template_part("parts/especialidades/sidebar") ?>
 				<?php get_template_part("parts/especialidades/conteudo") ?>
-				<?php get_template_part("parts/home/comentarios") ?>
 			</div>
 		</section>
 		<!-- Especialiades  -->
 		<?php get_template_part("parts/home/especialidades") ?>
+		<?php get_template_part("parts/home/comentarios") ?>
+
 	</main>
 </div>
 
