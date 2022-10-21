@@ -23,7 +23,7 @@ $specialties = new WP_Query(array(
 	</form>
 	*/ ?>
 	<ul class="especialidade__list">
-		<?php foreach(array_slice($specialties->posts,0,10) as $specialty):
+		<?php foreach(array_slice($specialties->posts,0,99) as $specialty):
 			// TODO: A clase ativo é adicionada ao li atual.
 			$active = ($specialty->ID == get_the_ID()) ? "ativo" : "";
 		?>
