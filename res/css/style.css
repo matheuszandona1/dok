@@ -632,11 +632,11 @@ html {
   transform: rotate(-180deg)scale(1.2);
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-  content: url("../img/arrow-down-circle-fill-1.svg");
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: url("../img/arrow-down-circle-fill.svg");
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+.swiper-button-next:after {
   content: url("../img/arrow-down-circle-fill.svg");
   transform: rotate(180deg);
 }

@@ -27,29 +27,24 @@
         max-width: 50%;
         height: auto;
       }
-
-
     }
 
     &--btn {
       display: none;
 
       @include d(s) {
-
         display: block;
         background-color: transparent;
         border: none;
-
       }
     }
 
     @include d(s) {
-
       display: flex;
       align-items: center;
 
       img {
-        border-left: 1px solid $texto-cinza-claro ;
+        border-left: 1px solid $texto-cinza-claro;
         padding-left: 20px;
       }
 
@@ -81,11 +76,11 @@
       display: flex;
       padding: 19px 40px;
       border-radius: 8px;
-      border: 1px solid #40C187;
+      border: 1px solid #40c187;
       max-height: 60px;
       position: relative;
       align-items: center;
-      transition: all .2s ease-in-out;
+      transition: all 0.2s ease-in-out;
 
       &:hover {
         &.telefone {
@@ -94,7 +89,7 @@
           }
 
           ::after {
-            content: '0800-0000';
+            content: "0800-0000";
             position: absolute;
             color: $texto-marrom;
             top: 18px;
@@ -124,11 +119,10 @@
       &:hover {
         &:after {
           position: absolute;
-          content: url('../assets/setinha.svg');
+          content: url("../assets/setinha.svg");
           color: $texto-marrom;
           right: 10px;
         }
-
       }
 
       @include d(m) {
@@ -147,12 +141,11 @@
       &:hover {
         &:after {
           position: absolute;
-          content: url('../assets/setinha.svg');
+          content: url("../assets/setinha.svg");
           color: $texto-marrom;
           right: 10px;
           top: 21px;
         }
-
       }
 
       @include d(m) {
@@ -203,7 +196,7 @@
 
         &::before {
           display: block;
-          content: '';
+          content: "";
           background-color: $texto-preto;
           position: absolute;
           left: 0;
@@ -212,8 +205,7 @@
           margin: 0 auto;
           width: 0px;
           height: 1px;
-          transition: all .3s ease-in-out;
-
+          transition: all 0.3s ease-in-out;
         }
 
         &:hover {
@@ -221,7 +213,6 @@
             width: 100%;
           }
         }
-
       }
     }
 
@@ -257,7 +248,7 @@
     }
 
     &--hover-container {
-      border-right: 1px solid $texto-marrom ;
+      border-right: 1px solid $texto-marrom;
       padding-right: 50px;
 
       @include d(m) {
@@ -299,8 +290,8 @@
     width: 100%;
     max-width: 240px;
     box-shadow: 0px 16px 13px #00000029;
-    border: 1px solid #7070701A;
-    transition: .3s all ease-in-out;
+    border: 1px solid #7070701a;
+    transition: 0.3s all ease-in-out;
 
     &.nav-mobile-ativo {
       left: 0;
@@ -324,7 +315,6 @@
     }
 
     &--container {
-
       max-width: 175px;
       margin: 0 30px;
       padding-top: 40px;
@@ -357,7 +347,6 @@
       border-bottom: 1px solid rgba(63, 60, 60, 0.16);
       padding-bottom: 10px;
       width: 80%;
-
     }
 
     &--options {
@@ -382,7 +371,8 @@
   width: 100%;
 
   .swiper-slide {
-    background: linear-gradient(90deg, rgba(64, 193, 135, 0.40379901960784315) 15%, rgba(64, 193, 135, 0.40379901960784315) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+    background: linear-gradient(90deg, rgba(64, 193, 135, 0.40379901960784315) 15%, rgba(64, 193, 135, 0.40379901960784315) 86%),
+      url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 330px;
@@ -396,11 +386,11 @@
     display: none;
 
     @include d(s) {
-      display: block
+      display: block;
     }
   }
 
-  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
@@ -428,7 +418,7 @@
   .swiper-rtl .swiper-button-prev {
     right: 120px;
     left: auto;
-    transition: .2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 
     &:hover {
       transform: scale(1.2);
@@ -443,12 +433,11 @@
     }
   }
 
-
   .swiper-button-prev,
   .swiper-rtl .swiper-button-prev {
     left: 120px;
     right: auto;
-    transition: .2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 
     &:hover {
       transform: scale(1.2);
@@ -464,7 +453,6 @@
   }
 
   &:hover {
-
     .swiper-button-next,
     .swiper-button-prev {
       display: block;
@@ -480,16 +468,13 @@
   }
 }
 
-
-
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  content: url('../assets/arrow-down-circle-fill-1.svg');
-}
-
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-  content: url('../assets/arrow-down-circle-fill.svg');
+  content: url("../assets/arrow-down-circle-fill.svg");
+}
+
+.swiper-button-next:after {
+  content: url("../assets/arrow-down-circle-fill.svg");
   transform: rotate(180deg);
 }
 
@@ -520,12 +505,10 @@
 
   @include d(m) {
     font: normal normal normal 40px/40px Roboto;
-
   }
 
   @include d(s) {
     font: normal normal normal 22px/24px Roboto;
-
   }
 
   span {
@@ -533,12 +516,10 @@
 
     @include d(m) {
       font: normal bold normal 40px/50px Roboto;
-
     }
 
     @include d(s) {
       font: normal bold normal 22px/24px Roboto;
-
     }
   }
 }
