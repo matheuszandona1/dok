@@ -2687,6 +2687,7 @@ html {
   max-width: 1620px;
   justify-content: right;
   margin-right: 0;
+  padding-left: 50px;
   display: flex;
 }
 
