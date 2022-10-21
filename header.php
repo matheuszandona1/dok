@@ -3,13 +3,14 @@
 $customHeader = @$args['customHeader'];
 // Estilos
 wp_enqueue_style('3rd-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', array());
-wp_enqueue_style('style', get_stylesheet_directory_uri() . '/res/css/style.css', array());
+
 // Scripts
 wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.0.min.js', array(), true);
 wp_enqueue_script('swiper', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array('jquery'), true);
 wp_enqueue_script('frmnt', get_stylesheet_directory_uri() . '/res/js/frmnt.js', array('jquery'), true);
 // Swiper
 wp_enqueue_style('3rd-swiper', 'https://unpkg.com/swiper@8/swiper-bundle.min.css', array());
+wp_enqueue_style('style', get_stylesheet_directory_uri() . '/res/css/style.css', array());
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
