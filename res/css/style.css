@@ -2456,6 +2456,7 @@ html {
   justify-content: space-between;
   margin: 0 auto 0 90px;
   display: flex;
+  overflow: auto;
 }
 
 .sobre-main__content-mid img {
