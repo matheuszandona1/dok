@@ -376,6 +376,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 330px;
+    @include d(s) {
+      height: 40vh;
+    }
   }
 
   .swiper-pagination {
