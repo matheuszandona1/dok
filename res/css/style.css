@@ -2439,7 +2439,7 @@ html {
 }
 
 .sobre-main__text-p {
-  max-width: 1250px;
+  max-width: 1100px;
   margin: 0 auto 60px 90px;
   font: 16px / 19px Roboto;
 }
@@ -2452,7 +2452,7 @@ html {
 }
 
 .sobre-main__content-mid {
-  max-width: 1250px;
+  max-width: 1100px;
   flex-wrap: wrap;
   gap: 23px;
   margin: 0 auto 0 90px;
@@ -3331,7 +3331,7 @@ html {
 }
 
 .vetpoints__celular--checkbox-container {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 767px) {
