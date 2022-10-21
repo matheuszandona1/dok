@@ -473,7 +473,8 @@
   content: url("../assets/arrow-down-circle-fill-1.svg");
 }
 
-.swiper-button-next:after {
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
   content: url("../assets/arrow-down-circle-fill.svg");
   transform: rotate(180deg);
 }
