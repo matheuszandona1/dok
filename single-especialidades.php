@@ -12,7 +12,6 @@
 				<?php get_template_part("parts/especialidades/sidebar") ?>
 				<?php get_template_part("parts/especialidades/conteudo") ?>
 				<?php get_template_part("parts/home/comentarios") ?>
-
 			</div>
 		</section>
 		<!-- Especialiades  -->
