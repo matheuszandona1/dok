@@ -49,7 +49,7 @@ html {
 .capao-geral {
   height: auto;
   background-color: #0000;
-  background-image: linear-gradient(90deg, #0a7846de 15%, #40c187de 86%), url("../img/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+  background-image: linear-gradient(90deg, #0a7846de 15%, #40c187de 86%), url("../img/background-veterinary.jpg");
   background-position: 0 0, 0 0;
   background-repeat: no-repeat;
   background-size: 100% 200%;
@@ -531,7 +531,7 @@ html {
 .swiper-capao .swiper-slide {
   height: 330px;
   background-color: #0000;
-  background-image: linear-gradient(90deg, #40c18767 15% 86%), url("../img/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+  background-image: linear-gradient(90deg, #40c18767 15% 86%), url("../img/background-veterinary.jpg");
   background-position: 0 0, 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -966,7 +966,7 @@ html {
 .quem-somos .swiper-quemsomos .swiper-slide {
   height: 430px;
   background-color: #0000;
-  background-image: linear-gradient(90deg, #ffffff9e 15% 86%), url("../img/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+  background-image: linear-gradient(90deg, #ffffff9e 15% 86%), url("../img/background-veterinary.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;

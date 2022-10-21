@@ -31,7 +31,6 @@ $options = array(
         clickable: false,
       },
       autoplay:{
-        true,
         delay:5000,
       
       }

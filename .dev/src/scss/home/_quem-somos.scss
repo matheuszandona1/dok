@@ -5,7 +5,7 @@
   .swiper-quemsomos {
     .swiper-slide {
       height: 430px;
-      background: linear-gradient(90deg, rgba(255, 255, 255, 0.62) 15%, rgba(255, 255, 255, 0.62) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.62) 15%, rgba(255, 255, 255, 0.62) 86%), url("../assets/background-veterinary.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: right;
@@ -13,13 +13,13 @@
     }
 
     @include d(m) {
-
       .swiper-button-next,
       .swiper-rtl .swiper-button-prev {
         left: auto;
         right: 100px;
 
-        @include d(s) {}
+        @include d(s) {
+        }
       }
 
       .swiper-button-prev,
@@ -30,7 +30,6 @@
     }
 
     @include d(s) {
-
       .swiper-button-next,
       .swiper-rtl .swiper-button-prev {
         left: auto;
@@ -57,14 +56,16 @@
         left: auto;
       }
     }
-    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
       right: 100px;
       left: auto;
-  }
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: 100px;
-    right: auto;
-}
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+      left: 100px;
+      right: auto;
+    }
   }
 
   &__container {
@@ -92,7 +93,6 @@
 
     @include d(s) {
       font: normal normal 900 20px/24px Roboto;
-
     }
   }
 
@@ -116,16 +116,16 @@
     background-color: $verde-claro;
     max-width: 157px;
     text-align: center;
-    border: 1px solid #40C187;
+    border: 1px solid #40c187;
     border-radius: 8px;
     padding: 21px 0px;
     position: relative;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     font-weight: 800;
 
     &:hover {
       &:after {
-        content: url('../assets/setinha.svg');
+        content: url("../assets/setinha.svg");
         margin: 0 auto;
         position: absolute;
         right: 30px;

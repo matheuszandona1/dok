@@ -1,11 +1,9 @@
 .capao-geral {
-  background: linear-gradient(90deg, rgba(10, 120, 70, 0.87) 15%, rgba(64, 193, 135, 0.87) 86%), url("../assets/veterinary-doctors-with-ear-drops-and-cute-little-2021-08-29-03-30-48-utc@2x.png");
+  background: linear-gradient(90deg, rgba(10, 120, 70, 0.87) 15%, rgba(64, 193, 135, 0.87) 86%), url("../assets/background-veterinary.jpg");
   background-repeat: no-repeat;
   background-size: 100% 200%;
   height: auto;
   margin-bottom: 35px;
-
-
 
   &__container {
     max-width: 1100px;
@@ -28,7 +26,6 @@
 
     @include d(s) {
       font: normal normal normal 12px/10px Roboto;
-
     }
   }
 
@@ -67,7 +64,6 @@
 
     @include d(s) {
       font: normal normal normal 20px/20px Roboto;
-
     }
   }
 }
