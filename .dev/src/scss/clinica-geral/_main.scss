@@ -70,7 +70,6 @@
         }
       }
     }
-
   }
 
   &__unidade {
@@ -88,7 +87,6 @@
         color: $texto-cinza;
       }
     }
-
   }
 
   &__desc-unidade {
@@ -99,8 +97,6 @@
       display: block;
       border-radius: 8px;
       margin-bottom: 40;
-
-
     }
 
     &--img {
@@ -113,16 +109,12 @@
         height: 160px;
         margin: 0 auto;
         margin-bottom: 40;
-
       }
-
     }
 
     &--title {
       font: normal normal 900 20px/19px Roboto;
       margin-bottom: 20px;
-
-
     }
 
     &--desc {
@@ -142,7 +134,6 @@
       @include d(s) {
         flex-direction: column;
         max-width: 310px;
-
       }
     }
 
@@ -156,8 +147,6 @@
         flex-direction: row;
         margin-bottom: 30px;
       }
-
-
     }
 
     &--icons {
@@ -169,26 +158,22 @@
 
       img {
         margin: 0 auto;
-
-
       }
 
       @include d(s) {
         transform: scale(0.7);
         align-items: center;
       }
-
-
     }
 
     &--icons-desc {
       margin-top: 22px;
       max-width: 280px;
-      font: normal normal 600 20px/19px Roboto;
+      font: normal normal normal 20px/19px Roboto;
       text-align: center;
 
       @include d(s) {
-        font: normal normal 600 16px/19px Roboto;
+        font: normal normal normal 16px/19px Roboto;
         max-width: 220px;
         margin-top: 0px;
         margin-left: 10px;
@@ -211,13 +196,10 @@
       border-radius: 8px;
       color: $verde-claro;
 
-
-
       option {
         background-color: $verde-claro;
         color: #fff;
       }
     }
-
   }
 }

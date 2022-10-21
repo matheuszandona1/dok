@@ -2022,7 +2022,7 @@ html {
   max-width: 280px;
   text-align: center;
   margin-top: 22px;
-  font: 600 20px / 19px Roboto;
+  font: 20px / 19px Roboto;
 }
 
 @media screen and (max-width: 767px) {
@@ -2031,7 +2031,7 @@ html {
     text-align: left;
     margin-top: 0;
     margin-left: 10px;
-    font: 600 16px / 19px Roboto;
+    font: 16px / 19px Roboto;
   }
 }
 
@@ -2347,7 +2347,7 @@ html {
 .sobre-main__desc--text {
   color: #3f3c3c;
   margin-bottom: 20px;
-  font: 600 16px / 19px Roboto;
+  font: 16px / 19px Roboto;
 }
 
 @media screen and (max-width: 767px) {
@@ -2441,7 +2441,7 @@ html {
 .sobre-main__text-p {
   max-width: 1250px;
   margin: 0 auto 60px 90px;
-  font: 600 16px / 19px Roboto;
+  font: 16px / 19px Roboto;
 }
 
 @media screen and (max-width: 767px) {
@@ -2631,7 +2631,7 @@ html {
 .especialidade__content--desc {
   color: #3f3c3c;
   margin-bottom: 20px;
-  font: 600 16px / 19px Roboto;
+  font: 16px / 19px Roboto;
 }
 
 .especialidade__content--desc:last-of-type {

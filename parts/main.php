@@ -271,7 +271,7 @@
     </div>
     <div class="exames__resultados">
       <div class="exames__resultados--resultado"><a href="#resultados">Resultados de exames</a></div>
-      <div class="exames__resultados--preparacao"><a href="#resultados">Preparação de exames</a></div>
+      <div class="exames__resultados--preparacao"><a href="?post_type=especialidades&p=74">Preparação de exames</a></div>
     </div>
   </div>
 </section>
