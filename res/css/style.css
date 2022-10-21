@@ -540,12 +540,6 @@ html {
   background-clip: border-box, border-box;
 }
 
-@media screen and (max-width: 767px) {
-  .swiper-capao .swiper-slide {
-    height: 214px;
-  }
-}
-
 .swiper-capao .swiper-pagination {
   display: none;
 }
