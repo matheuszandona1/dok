@@ -23,7 +23,7 @@ add_filter('the_content', 'wph_add_class_for_p_tag', 9999);
 		<?php // TODO: Quando a especialidade não tem imagem, o título fica alinhado à direita ?>
 		<h2 class="especialidade__content--title__h2"><?php the_title(); ?></h2>
 	</div>
-	<?php get_the_content() ?>
+	<?php the_content() ?>
 	
 	<?php // TODO: Inserir um mosaico no conteúdo e deixar a regra de CSS pronta para formatá-lo. ?>
 	<!-- 
