@@ -2454,7 +2454,7 @@ html {
 .sobre-main__content-mid {
   max-width: 1250px;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 23px;
   margin: 0 auto 0 90px;
   display: flex;
 }
