@@ -3,7 +3,7 @@
 // Especialidades
 $specialties = new WP_Query(array(
 	'post_type' => 'especialidades',
-	'posts_per_page' => 12
+	'posts_per_page' => 99
 ));
 ?>
 <div class="especialidade__side-card">
