@@ -1,7 +1,7 @@
 <?php
 	$options = array(
-		"exames" => get_field('exames','options'),
-		"cta" => get_field('cta_exames','options'),
+		"exames" => @$args['exames'],
+		"cta" => @$args['cta_exames'],
 	);
 ?>
 <section class="exames">

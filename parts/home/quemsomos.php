@@ -1,6 +1,6 @@
 <?php
 $options = array(
-	"about" => get_field('quem-somos', 'options'),
+	"about" => @$args['quem-somos'],
 );
 ?>
 <section class="quem-somos">

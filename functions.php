@@ -138,3 +138,9 @@ function addUriQuery($base, $query)
 	$queries = array_merge($queries, $query);
 	return "{$url['scheme']}://{$url['host']}{$url['path']}?" . http_build_query($queries);
 }
+
+function frmnt_pClass($content, $class)
+{
+	$content = str_replace('<p>', "<p class='$class'>", $content);
+	return $content;
+}

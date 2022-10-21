@@ -1,6 +1,6 @@
 <?php
 $options = array(
-	"numbers" => get_field('numeros', 'options'),
+	"numbers" => @$args['numeros'],
 );
 ?>
 <section class="numeros">
