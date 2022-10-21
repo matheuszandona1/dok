@@ -2465,7 +2465,6 @@ html {
   object-fit: cover;
   height: 198px;
   border-radius: 8px;
-  margin-right: 30px;
 }
 
 @media screen and (max-width: 767px) {
