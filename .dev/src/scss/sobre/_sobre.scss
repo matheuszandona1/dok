@@ -155,11 +155,10 @@
     margin: 0 auto;
     margin-left: 90px;
     display: flex;
-    justify-content: space-between;
-    overflow: auto;
-
+    gap: 30px;
+    flex-wrap: wrap;
     img {
-      max-width: 290px;
+      max-width: 280px;
       width: 100%;
       object-fit: cover;
       height: 198px;

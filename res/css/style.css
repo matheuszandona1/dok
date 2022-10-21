@@ -2453,14 +2453,14 @@ html {
 
 .sobre-main__content-mid {
   max-width: 1250px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   margin: 0 auto 0 90px;
   display: flex;
-  overflow: auto;
 }
 
 .sobre-main__content-mid img {
-  max-width: 290px;
+  max-width: 280px;
   width: 100%;
   object-fit: cover;
   height: 198px;
