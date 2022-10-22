@@ -17,6 +17,8 @@ $data = get_fields('options');
 		<!-- Seção sobre Quem Somos -->
 		<?php get_template_part( "parts/home/quemsomos", "quem-somos", array("quem-somos" => $data['quem-somos'])); ?>
 				
+		<!-- Seção sobre Quem Somos -->
+		<?php get_template_part( "parts/home/video", "video", array("video" => $data['video'])); ?>
 		<!-- Seção dos Nossos Serviços -->
 		<?php get_template_part("parts/home/servicoes"); ?>
 				

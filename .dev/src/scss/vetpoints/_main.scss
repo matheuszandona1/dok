@@ -222,6 +222,7 @@
       @include d(s) {
         font: normal normal bold 20px/23px Raleway;
         margin-bottom: 30px;
+        max-width: 370px;
       }
 
       svg {

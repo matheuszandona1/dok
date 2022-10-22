@@ -2993,6 +2993,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .vetpoints__main--title {
+    max-width: 370px;
     margin-bottom: 30px;
     font: bold 20px / 23px Raleway;
   }
