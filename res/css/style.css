@@ -4046,6 +4046,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.banner__btn {
+  width: 250px;
+  background-color: #b9cd00;
+  position: absolute;
+  bottom: 200px;
+  right: 20%;
 }
 
 .dog-claw {
