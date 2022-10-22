@@ -4051,11 +4051,15 @@ html {
 
 .banner__btn {
   width: 100%;
-  max-width: 310px;
-  height: 54px;
+  max-width: 36px;
+  height: 52px;
+  color: #232223;
   background-color: #b9cd00;
   border: 1px solid #000;
   border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   position: absolute;
   bottom: 200px;
   right: 20%;
