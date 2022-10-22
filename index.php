@@ -22,6 +22,9 @@ $data = get_fields('options');
 				
 		<!-- Seção dos Números do DOK -->
 		<?php get_template_part( "parts/home/numeros", "numeros", array("numeros" => $data['numeros']));; ?>
+
+		<!-- Seção do banne para KeroKolo do DOK -->
+		<?php get_template_part( "parts/home/kerokolo", "kerokolo", array("kerokolo" => $data['kerokolo']));; ?>
 				
 		<!-- Seção de Comentários sobre o DOK -->
 		<?php get_template_part("parts/home/comentarios", "comentarios", array("depoimentos" => $data['depoimentos'])); ?>
