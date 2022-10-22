@@ -862,6 +862,7 @@ html {
 .especialidades__container {
   max-width: 990px;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin: 0 auto;
   display: flex;
