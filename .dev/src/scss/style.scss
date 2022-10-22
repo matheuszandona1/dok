@@ -251,19 +251,21 @@ $s-device: 480px;
     background-color: #40c187;
     max-width: 900px;
     margin: 0 auto;
+    height: 340px;
   }
   margin-bottom: 100px;
 }
 
 .youtube-video-player {
   background-color: #000;
-  margin-bottom: 30px;
+  margin-top: -50px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
   height: 410px;
   width: 100%;
   max-width: 790px;
+  border-radius: 20px;
 }
 .youtube-video-player img {
   height: 100%;

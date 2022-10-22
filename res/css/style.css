@@ -4210,6 +4210,7 @@ html {
 
 .video__container {
   max-width: 900px;
+  height: 340px;
   background-color: #40c187;
   justify-content: center;
   margin: 0 auto;
@@ -4222,7 +4223,8 @@ html {
   width: 100%;
   max-width: 790px;
   background-color: #000;
-  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-top: -50px;
   position: relative;
   overflow: hidden;
 }
