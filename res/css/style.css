@@ -4204,4 +4204,48 @@ html {
   transform: translateY(0);
 }
 
+.youtube-video-player {
+  cursor: pointer;
+  height: 250px;
+  width: 350px;
+  background-color: #000;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.youtube-video-player img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.youtube-video-player img, .youtube-video-player .youtube-video-play {
+  cursor: pointer;
+}
+
+.youtube-video-player img, .youtube-video-player iframe, .youtube-video-player .youtube-video-play, .youtube-video-player .youtube-video-play:before {
+  position: absolute;
+}
+
+.youtube-video-player .youtube-video-play {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.youtube-video-player iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.youtube-video-player:hover #path7 {
+  fill: red;
+}
+
 /*# sourceMappingURL=style.css.map */

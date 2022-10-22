@@ -244,3 +244,49 @@ $s-device: 480px;
     transform: translateY(0);
   }
 }
+
+.youtube-video-player {
+  background-color: #000;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 250px;
+  width: 350px;
+}
+.youtube-video-player img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.youtube-video-player img,
+.youtube-video-player .youtube-video-play {
+  cursor: pointer;
+}
+.youtube-video-player img,
+.youtube-video-player iframe,
+.youtube-video-player .youtube-video-play,
+.youtube-video-player .youtube-video-play:before {
+  position: absolute;
+}
+
+.youtube-video-player .youtube-video-play {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.youtube-video-player iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.youtube-video-player:hover #path7 {
+  fill: red;
+}
