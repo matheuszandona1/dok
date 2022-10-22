@@ -3764,7 +3764,7 @@ html {
 }
 
 .vetpoints__comentarios:hover .swiper-button-next {
-  right: 25%;
+  right: 32%;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
@@ -3786,7 +3786,7 @@ html {
 }
 
 .vetpoints__comentarios:hover .swiper-button-prev {
-  left: 27%;
+  left: 32%;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
