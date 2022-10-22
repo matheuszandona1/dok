@@ -4214,8 +4214,15 @@ html {
   background-color: #40c187;
   border-radius: 8px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 120px auto 0;
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .video__container {
+    height: 160px;
+    max-width: 370px;
+  }
 }
 
 .video__titulo {
@@ -4243,6 +4250,13 @@ html {
   margin-top: -50px;
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .youtube-video-player {
+    max-width: 350px;
+    height: 200px;
+  }
 }
 
 .youtube-video-player img {

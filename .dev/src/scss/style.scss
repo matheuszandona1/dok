@@ -253,7 +253,13 @@ $s-device: 480px;
     margin: 0 auto;
     height: 340px;
     border-radius: 8px;
+    margin-top: 120px;
+    @include d(s) {
+      height: 160px;
+      max-width: 370px;
+    }
   }
+
   margin-bottom: 100px;
   &__titulo {
     font-size: 30px;
@@ -282,6 +288,10 @@ $s-device: 480px;
   width: 100%;
   max-width: 790px;
   border-radius: 20px;
+  @include d(s) {
+    max-width: 350px;
+    height: 200px;
+  }
 }
 .youtube-video-player img {
   height: 100%;
