@@ -17,7 +17,6 @@
 
     @include d(s) {
       font: normal normal 900 20px/20px Roboto;
-
     }
 
     &::before {
@@ -60,7 +59,7 @@
         border-radius: 22px;
         margin: 0 auto;
         padding: 30px 50px;
-        transition: .2s all ease-in;
+        transition: 0.2s all ease-in;
 
         @include d(s) {
           padding: 30px 20px;
@@ -74,7 +73,6 @@
 
       .swiper-slide-next {
         .comentarios__container {
-
           background-color: #fff;
         }
       }
@@ -82,19 +80,17 @@
 
     .swiper-button-next:after,
     .swiper-rtl .swiper-button-prev:after {
-      content: url('../assets/arrow-down-circle-fill-5.svg');
+      content: url("../assets/arrow-down-circle-fill-5.svg");
       transform: rotate(180deg);
     }
 
     .swiper-button-prev:after,
     .swiper-rtl .swiper-button-next:after {
-      content: url('../assets/arrow-down-circle-fill-5.svg');
+      content: url("../assets/arrow-down-circle-fill-5.svg");
       transform: rotate(0deg);
       left: auto;
       right: 210px;
       top: 40px;
-
-
     }
 
     .swiper-button-next,
@@ -141,7 +137,7 @@
   .swiper-slide-active,
   .swiper-slide-visible {
     .comentarios__container {
-      background-color: $verde-claro  !important;
+      background-color: $verde-claro !important;
       max-width: 750px;
       box-shadow: 0px 3px 6px #00000029;
       border-radius: 22px;
@@ -209,5 +205,6 @@
     text-align: left;
     line-height: 1em;
     max-height: 8em;
+    overflow: auto;
   }
 }

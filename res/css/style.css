@@ -1687,6 +1687,7 @@ html {
   text-align: left;
   max-height: 8em;
   font: 16px / 1em Roboto;
+  overflow: auto;
 }
 
 .footer {

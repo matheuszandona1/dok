@@ -14,11 +14,7 @@
 					<p class="vetpoints__capao--content-p">
 						Vetpoints é o programa feito especialmente para os médicos veterinários. Ao indicar o DOK Hospital Veterinário aos seus clientes, você ganha pontos para trocar por descontos exclusivos em cursos do CDMV e nos serviços da rede DOK.
 					</p>
-
 					<div class="vetpoints__capao--btn-container">
-						<div class="vetpoints__capao--button-container">
-							<a href="#" class="vetpoints__capao--btn-container__button-c">Cadastre-se</a>
-						</div>
 						<div class="vetpoints__capao--apps">
 							<div>
 								<a href="#">
@@ -26,11 +22,11 @@
 								</a>
 
 							</div>
-							<div>
+							<!-- <div>
 								<a href="#">
 									<img src="wp-content/themes/frmnt-dok/res/img/appstore.svg" alt="disponível na App Store">
 								</a>
-							</div>
+							</div> -->
 
 						</div>
 					</div>
@@ -150,13 +146,6 @@
 					</p>
 				</div>
 			</a>
-
-
-
-
-
-
-
 		</div>
 	</section>
 
@@ -309,17 +298,13 @@
 			<h2 class="vetpoints__cta--title">
 				Faça seu cadastro hoje mesmo e faça parte do Vetpoints
 			</h2>
-			<div class="vetpoints__cta--btn-container">
-				<a href="#">Cadastre-se</a>
-			</div>
+
 		</div>
 		<div class="vetpoints__cta--download">
 			<a href="#">
 				<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
 			</a>
-			<a href="#">
-				<img src="wp-content/themes/frmnt-dok/res/img/appstore.svg" alt="disponível na App Store">
-			</a>
+
 		</div>
 	</section>
 
