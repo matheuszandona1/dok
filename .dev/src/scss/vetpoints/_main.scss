@@ -1280,7 +1280,9 @@
 }
 
 .banner {
-  img {
-    height: 670px;
-  }
+  background-image: url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
 }
