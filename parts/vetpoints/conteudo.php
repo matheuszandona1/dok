@@ -387,7 +387,8 @@
 		</div>
 	</section>
 </main>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script>
 	$(".card-default").click(function(e) {
     $(this).toggleClass("card-inativo");
     $(this).toggleClass("card-ativo");
