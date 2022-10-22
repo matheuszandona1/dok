@@ -1,4 +1,6 @@
 <section class="video">
+  <h2 class="video__titulo">CONHEÇA NOSSA MISSÃO</h2>
+  <p class="video__desc">Você ama seu pet, nós amamos cuidar dele. A missão do DOK é transformar amor em cuidado.</p>
   <div class="video__container">
   <div class="youtube-video-player" data-video-id="16TqZ9udgpw" data-video-thumbnail="hq">
   <div class="youtube-video-play">

@@ -255,6 +255,13 @@ $s-device: 480px;
     border-radius: 8px;
   }
   margin-bottom: 100px;
+  &__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #3f3c3c;
+    margin-bottom: 20px;
+  }
 }
 
 .youtube-video-player {

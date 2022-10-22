@@ -4218,6 +4218,14 @@ html {
   display: flex;
 }
 
+.video__titulo {
+  letter-spacing: .6px;
+  color: #3f3c3c;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .youtube-video-player {
   cursor: pointer;
   height: 410px;
