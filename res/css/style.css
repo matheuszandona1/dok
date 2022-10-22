@@ -4222,6 +4222,7 @@ html {
   .video__container {
     height: 160px;
     max-width: 370px;
+    margin-top: 60px;
   }
 }
 
