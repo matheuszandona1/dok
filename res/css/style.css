@@ -4228,7 +4228,8 @@ html {
 }
 
 .video__desc {
-  margin-bottom: 100px;
+  max-width: 470px;
+  margin: 0 auto;
 }
 
 .youtube-video-player {
