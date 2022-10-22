@@ -245,6 +245,7 @@ $s-device: 480px;
   }
 }
 .video {
+  text-align: center;
   &__container {
     display: flex;
     justify-content: center;
@@ -261,6 +262,9 @@ $s-device: 480px;
     letter-spacing: 0.6px;
     color: #3f3c3c;
     margin-bottom: 20px;
+  }
+  &__desc {
+    margin-bottom: 100px;
   }
 }
 

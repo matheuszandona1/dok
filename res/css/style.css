@@ -4205,6 +4205,7 @@ html {
 }
 
 .video {
+  text-align: center;
   margin-bottom: 100px;
 }
 
@@ -4224,6 +4225,10 @@ html {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: bold;
+}
+
+.video__desc {
+  margin-bottom: 100px;
 }
 
 .youtube-video-player {
