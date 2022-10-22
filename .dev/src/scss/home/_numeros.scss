@@ -3,10 +3,6 @@
   position: relative;
   height: auto;
 
-  @include d(s) {
-    margin-bottom: 100px;
-  }
-
   &__cachorro-1 {
     position: absolute;
     bottom: -33px;

@@ -1347,12 +1347,6 @@ html {
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
-  .numeros {
-    margin-bottom: 100px;
-  }
-}
-
 .numeros__cachorro-1 {
   z-index: 1;
   position: absolute;
