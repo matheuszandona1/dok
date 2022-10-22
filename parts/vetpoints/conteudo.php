@@ -55,7 +55,7 @@
 			</svg>
 		</h2>
 		<div class="vetpoints__main--cards">
-			<a href="javascript:void(0)" class="card-default ">
+			<a href="javascript:void(0)" class="card-default card-ativo">
 				<div class="vetpoints__main--card">
 					<div class="vetpoints__main--card__svg">
 						<svg id="percentage" xmlns="http://www.w3.org/2000/svg" width="34.611" height="34.611" viewBox="0 0 34.611 34.611">
