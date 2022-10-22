@@ -36,7 +36,7 @@
 		<ul class="header__nav-mobile--ul">
 			<li class="header__nav-mobile--li">
 				<a class="header__nav-mobile--cascata" href="javascript:void(0)">ESPECIALIDADES </a>
-				<?php foreach(array_slice($specialties->posts,0,6) as $specialty): ?>
+				<?php foreach(array_slice($specialties->posts,0,999) as $specialty): ?>
 					<div class="header__nav-mobile--cascata-children">
 						<a class="header__nav-mobile--links" href="<?php echo($specialty->guid) ?>"><?php echo($specialty->post_title) ?></a>
 					</div>	
