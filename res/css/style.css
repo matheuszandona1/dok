@@ -4204,6 +4204,10 @@ html {
   transform: translateY(0);
 }
 
+.video {
+  margin-bottom: 100px;
+}
+
 .video__container {
   max-width: 900px;
   background-color: #40c187;
@@ -4227,6 +4231,7 @@ html {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .youtube-video-player img, .youtube-video-player .youtube-video-play {
