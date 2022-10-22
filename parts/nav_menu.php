@@ -12,7 +12,7 @@
 ?>
 <nav class="header__nav">
 	<ul class="header__nav--ul">
-		<li><a class="header__nav--hover" href="javascript:void(0)">ESPECIALIDADES</a></li>
+		<li><a class="header__nav--hover" href="https://ser-dok-wp.dev3.fermen.to/?post_type=especialidades&p=74">ESPECIALIDADES</a></li>
 		<?php wp_nav_menu(array(
 		"menu" => "principal",
 		"container" => "",

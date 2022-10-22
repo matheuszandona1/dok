@@ -17,7 +17,7 @@
 					<div class="vetpoints__capao--btn-container">
 						<div class="vetpoints__capao--apps">
 							<div>
-								<a href="#">
+								<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
 									<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
 								</a>
 
@@ -173,7 +173,7 @@
 				</div>
 
 				<div class="vetpoints__celular--links">
-					<a href="#">
+					<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
 						<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
 					</a>
 					<a href="#">
@@ -301,7 +301,7 @@
 
 		</div>
 		<div class="vetpoints__cta--download">
-			<a href="#">
+			<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
 				<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
 			</a>
 
