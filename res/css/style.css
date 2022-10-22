@@ -4204,10 +4204,19 @@ html {
   transform: translateY(0);
 }
 
+.video__container {
+  max-width: 900px;
+  background-color: #40c187;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
 .youtube-video-player {
   cursor: pointer;
-  height: 250px;
-  width: 350px;
+  height: 410px;
+  width: 100%;
+  max-width: 790px;
   background-color: #000;
   margin-bottom: 30px;
   position: relative;

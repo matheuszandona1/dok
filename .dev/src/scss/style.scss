@@ -244,6 +244,15 @@ $s-device: 480px;
     transform: translateY(0);
   }
 }
+.video {
+  &__container {
+    display: flex;
+    justify-content: center;
+    background-color: #40c187;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
 
 .youtube-video-player {
   background-color: #000;
@@ -251,8 +260,9 @@ $s-device: 480px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  height: 250px;
-  width: 350px;
+  height: 410px;
+  width: 100%;
+  max-width: 790px;
 }
 .youtube-video-player img {
   height: 100%;
