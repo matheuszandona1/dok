@@ -291,6 +291,7 @@ $s-device: 480px;
   @include d(s) {
     max-width: 350px;
     height: 200px;
+    margin-top: -20px;
   }
 }
 .youtube-video-player img {
