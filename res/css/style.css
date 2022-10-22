@@ -4205,7 +4205,6 @@ html {
 }
 
 .video {
-  text-align: center;
   margin-bottom: 100px;
 }
 
@@ -4222,6 +4221,7 @@ html {
 .video__titulo {
   letter-spacing: .6px;
   color: #3f3c3c;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: bold;
@@ -4229,6 +4229,7 @@ html {
 
 .video__desc {
   max-width: 470px;
+  text-align: center;
   margin: 0 auto;
 }
 
