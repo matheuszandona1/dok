@@ -1286,6 +1286,9 @@
   background-position: center;
   height: 660px;
   position: relative;
+  @include d(s) {
+    background-image: url("../assets/banner-mobile.jpg");
+  }
   &__btn {
     a {
       color: #232223;

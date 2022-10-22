@@ -4133,6 +4133,12 @@ html {
   position: relative;
 }
 
+@media screen and (max-width: 767px) {
+  .banner {
+    background-image: url("../img/banner-mobile.jpg");
+  }
+}
+
 .banner__btn a {
   color: #232223;
   width: 100%;
