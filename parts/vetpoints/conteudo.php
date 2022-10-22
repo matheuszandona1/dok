@@ -65,7 +65,7 @@
 						</svg>
 					</div>
 					<p class="vetpoints__main--card__desc">
-						Descontos exclusivos em cursos CDMV
+					Você ganha, seus clientes também
 					</p>
 
 					<p class="vetpoints__main--card__title">
@@ -94,10 +94,10 @@
 					</p>
 
 					<p class="vetpoints__main--card__title">
-						Você ganha, seus clientes também
+					Descontos exclusivos em cursos CDMV
 					</p>
 					<p class="vetpoints__main--card__desc-p">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
+						Atualize seu currículo com treinamentos e cursos CDMV pagando preços especiais.
 					</p>
 				</div>
 			</a>
@@ -113,16 +113,14 @@
 
 					</div>
 					<p class="vetpoints__main--card__desc">
-						Descontos exclusivos em cursos CDMV em cursos CDMV em cursos CDMV em cursos CDMVem cursos CDMV
+						Condições especiais em serviços do DOK
 					</p>
 
 					<p class="vetpoints__main--card__title">
-						Você ganha, seus clientes também
+					Condições especiais em serviços do DOK
 					</p>
 					<p class="vetpoints__main--card__desc-p">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
-						nsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
-						nsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
+						Tenha acesso a condições exclusivas na hora de utilizar os serviços da rede DOK.
 					</p>
 				</div>
 			</a>
@@ -140,14 +138,14 @@
 						</svg>
 					</div>
 					<p class="vetpoints__main--card__desc">
-						Descontos exclusivos em cursos CDMV
+						De médicos veterinários para médicos veterinários.
 					</p>
 
 					<p class="vetpoints__main--card__title">
-						Você ganha, seus clientes também
+					De médicos veterinários para médicos veterinários.
 					</p>
 					<p class="vetpoints__main--card__desc-p">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
+						Faça parte do clube de vantagens criado por quem entende o seu negócio.
 					</p>
 				</div>
 			</a>
@@ -221,10 +219,8 @@
 									1
 								</p>
 								<div class="vetpoints__celular--checkbox__desc">
-									<h3>teste tesste teste</h3>
-									<p>ipsum dolor sit amet consectetur adipisicing elit. Eum, quam.
-										ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
-										ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
+									<h3>Baixe o aplicativo em seu celular</h3>
+									<p>Disponível gratuitamente para celulares IOS e Android.
 									</p>
 
 								</div>
@@ -236,10 +232,8 @@
 									2
 								</p>
 								<div class="vetpoints__celular--checkbox__desc">
-									<h3>teste tesste test asd asde asd asdd s</h3>
-									<p>ipsum dolor sit amet consectetur adipisicing elit. Eum, quam.
-										ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
-										ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
+									<h3>Indique o DOK Hospital Veterinário</h3>
+									<p>Encaminhe seus pacientes para realização de serviços na rede DOK.
 									</p>
 
 								</div>
@@ -252,10 +246,8 @@
 								3
 							</p>
 							<div class="vetpoints__celular--checkbox__desc">
-								<h3>teste tesste teste</h3>
-								<p>ipsum dolor sit amet consectetur adipisicing elit. Eum, quam.
-									ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
-									ipsum dolor sit amet consectetur adipisicing elit. Eum, quam
+								<h3>Ganhe pontos e resgate os benefícios</h3>
+								<p>Pontue e troque por benefícios em serviços da rede ou cursos CMDV.
 								</p>
 
 							</div>
@@ -387,6 +379,7 @@
 		</div>
 	</section>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script>
 	$(".card-default").click(function(e) {
