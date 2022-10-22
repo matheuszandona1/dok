@@ -4050,11 +4050,16 @@ html {
 }
 
 .banner__btn {
-  width: 250px;
+  width: 100%;
+  max-width: 310px;
+  height: 54px;
   background-color: #b9cd00;
+  border: 1px solid #000;
+  border-radius: 12px;
   position: absolute;
   bottom: 200px;
   right: 20%;
+  box-shadow: 0 3px 16px #b9cd005c;
 }
 
 .dog-claw {

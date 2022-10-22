@@ -1291,6 +1291,11 @@
     right: 20%;
     bottom: 200px;
     background-color: #b9cd00;
-    width: 250px;
+    width: 100%;
+    max-width: 310px;
+    box-shadow: 0px 3px 16px #b9cd005c;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    height: 54px;
   }
 }
