@@ -1,4 +1,88 @@
 @import "https://fonts.cdnfonts.com/css/amsipro-regular";
+@font-face {
+  font-family: exo_2extra_bold;
+  src: url("../fonts/exo2-extrabold-webfont.woff2") format("woff2"), url("../fonts/exo2-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_bold_italic;
+  src: url("../fonts/exo2-extrabolditalic-webfont.woff2") format("woff2"), url("../fonts/exo2-extrabolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_light;
+  src: url("../fonts/exo2-extralight-webfont.woff2") format("woff2"), url("../fonts/exo2-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_light_italic;
+  src: url("../fonts/exo2-extralightitalic-webfont.woff2") format("woff2"), url("../fonts/exo2-extralightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2regular;
+  src: url("../fonts/exo2-regular-webfont.woff2") format("woff2"), url("../fonts/exo2-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2semi_bold;
+  src: url("../fonts/exo2-semibold-webfont.woff2") format("woff2"), url("../fonts/exo2-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2semi_bold_italic;
+  src: url("../fonts/exo2-semibolditalic-webfont.woff2") format("woff2"), url("../fonts/exo2-semibolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_bold;
+  src: url("../fonts/exo2-extrabold-webfont.woff2") format("woff2"), url("../fonts/exo2-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_bold_italic;
+  src: url("../fonts/exo2-extrabolditalic-webfont.woff2") format("woff2"), url("../fonts/exo2-extrabolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_light;
+  src: url("../fonts/exo2-extralight-webfont.woff2") format("woff2"), url("../fonts/exo2-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2extra_light_italic;
+  src: url("../fonts/exo2-extralightitalic-webfont.woff2") format("woff2"), url("../fonts/exo2-extralightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo_2regular;
+  src: url("../fonts/exo2-regular-webfont.woff2") format("woff2"), url("../fonts/exo2-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
@@ -4059,6 +4143,9 @@ html {
   border-radius: 12px;
   justify-content: center;
   align-items: center;
+  font-family: exo_2extra_bold;
+  font-size: 24px;
+  font-weight: bold;
   display: flex;
   position: absolute;
   bottom: 85px;

@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -135,34 +135,33 @@ li {
 
 a {
   text-decoration: none;
-
 }
 
-@import url('https://fonts.cdnfonts.com/css/amsipro-regular');
+@import url("https://fonts.cdnfonts.com/css/amsipro-regular");
+@import url("../fonts/stylesheet.css");
 
 html {
-  font-family: 'AmsiPro-Regular', sans-serif;
+  font-family: "AmsiPro-Regular", sans-serif;
 }
 
 $fonte-1: Roboto, sans-serif;
 $fonte-2: Raleway, sans-serif;
 
 // cores gerais
-$verde-claro: #40C187;
+$verde-claro: #40c187;
 $branco: #fff;
 $azul: #004075;
-$azul-claro: #17C3B2;
-$azul-cinza: #99B6CA;
+$azul-claro: #17c3b2;
+$azul-cinza: #99b6ca;
 
 // cores de texto
 $texto-preto: #232223;
-$texto-branco: #FFF;
-$texto-marrom: #3F3C3C;
+$texto-branco: #fff;
+$texto-marrom: #3f3c3c;
 $texto-cinza: #707070;
 $texto-cinza-claro: #909090;
 $texto-azul: #004075;
-$texto-azul-claro: #17C3B2;
-
+$texto-azul-claro: #17c3b2;
 
 // Variáveis do grid
 $n-device: 1366px;
@@ -176,27 +175,20 @@ $s-device: 480px;
     @media screen and (min-width: $l-device) and (max-width: #{$n-device}) {
       @content;
     }
-  }
-
-  @else if $size==l {
+  } @else if $size==l {
     @media screen and (max-width: $l-device) {
       @content;
     }
-  }
-
-  @else if $size==m {
+  } @else if $size==m {
     @media screen and (min-width: $m-device) and (max-width: #{$l-device - 1}) {
       @content;
     }
-  }
-
-  @else if $size==s {
+  } @else if $size==s {
     @media screen and (max-width: #{$m-device - 1}) {
       @content;
     }
   }
 }
-
 
 // general styles
 @import "./general";
@@ -214,14 +206,13 @@ $s-device: 480px;
 // clinica general styles
 @import "./clinica-geral/main";
 
-// internações general styles 
+// internações general styles
 @import "./internacoes/internacoes-main";
 
-
-// exames general styles 
+// exames general styles
 @import "./exames/exames-main";
 
-// sobre general styles 
+// sobre general styles
 @import "./sobre/sobre";
 
 // especialidades general styles
@@ -230,37 +221,26 @@ $s-device: 480px;
 
 @import "./vetpoints/main";
 
-
-
-
-
-
-
-
-
-
 .dog-claw {
-  background-image: url('../assets/fundo-patas.svg');
+  background-image: url("../assets/fundo-patas.svg");
   background-repeat: repeat;
   background-position: top right;
 
   @include d(s) {
-    background-image: url('../assets/fundo-mobile.png');
+    background-image: url("../assets/fundo-mobile.png");
     background-repeat: repeat;
-
   }
 }
 
 .slide-down {
   opacity: 0;
   visibility: hidden;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
   transform: translateY(-50px);
 
   &.aberto {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-
   }
 }

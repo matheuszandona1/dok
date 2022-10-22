@@ -1305,12 +1305,7 @@
 
       font-size: 24px;
       font-weight: bold;
-      @font-face {
-        font-family: "exo_2extra_bold";
-        src: url("exo2-extrabold-webfont.woff2") format("woff2"), url("exo2-extrabold-webfont.woff") format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
+      font-family: "exo_2extra_bold";
     }
   }
 }
