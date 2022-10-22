@@ -2,7 +2,6 @@
   background-color: $verde-claro;
   position: relative;
   height: auto;
-  margin-bottom: 100px;
 
   @include d(s) {
     margin-bottom: 100px;
@@ -56,7 +55,6 @@
     img {
       max-width: 100%;
       height: auto;
-
     }
 
     @include d(s) {
@@ -81,7 +79,6 @@
       margin-bottom: 30px;
     }
 
-
     span {
       font: normal normal 900 31px/18px Roboto;
       letter-spacing: 0.74px;
@@ -89,7 +86,6 @@
 
       @include d(s) {
         font: normal normal 900 20px/39px Roboto;
-
       }
     }
   }
@@ -102,6 +98,5 @@
       border: none;
       padding-right: 0px;
     }
-
   }
 }
