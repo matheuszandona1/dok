@@ -12,8 +12,8 @@
 
 		</div>
 		<div class="exames__resultados">
-			<div class="exames__resultados--resultado"><a href="<?php echo(@$options['cta']['link_agendamento']) ?>">Resultados de exames</a></div>
-			<div class="exames__resultados--preparacao"><a href="?post_type=especialidades&p=74">Preparação de exames</a></div>
+			<div class="exames__resultados--preparacao"><a href="<?php echo(@$options['cta']['link_agendamento']) ?>">Resultados de exames</a></div>
+
 		</div>
 	</div>
 </section>
