@@ -4212,6 +4212,7 @@ html {
   max-width: 900px;
   height: 340px;
   background-color: #40c187;
+  border-radius: 8px;
   justify-content: center;
   margin: 0 auto;
   display: flex;
