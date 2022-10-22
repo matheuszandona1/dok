@@ -3354,7 +3354,7 @@ html {
 }
 
 .vetpoints__celular--links {
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 10px;
   display: flex;
 }

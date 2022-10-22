@@ -20,6 +20,6 @@
 	<?php endforeach; ?>
 	</div>
 	<div class="especialidades__btn-container">
-		<a class="button button__verde" href="https://ser-dok-wp.dev3.fermen.to/?page_id=35">Ver todas as Especialidades</a>
+		<a class="button button__verde" href="https://ser-dok-wp.dev3.fermen.to/?post_type=especialidades&p=74">Ver todas as Especialidades</a>
 	</div>
 </section>

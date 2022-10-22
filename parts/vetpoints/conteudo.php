@@ -176,9 +176,7 @@
 					<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
 						<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
 					</a>
-					<a href="#">
-						<img src="wp-content/themes/frmnt-dok/res/img/appstore.svg" alt="disponível na App Store">
-					</a>
+
 				</div>
 			</div>
 			<div class="vetpoints__celular--content">
@@ -233,11 +231,8 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-
 	</section>
-
 	<section class="vetpoints__comentarios">
 		<h2 class="vetpoints__comentarios--title">
 			Comentários de quem usa e aprova
