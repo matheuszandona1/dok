@@ -862,7 +862,7 @@ html {
 .especialidades__container {
   max-width: 992px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  gap: 30px;
   margin: 0 auto;
   display: flex;
 }
@@ -874,10 +874,10 @@ html {
 }
 
 .especialidades__card {
+  width: 225px;
   background: #fff;
   border-radius: 8px;
   margin-bottom: 40px;
-  padding: 27px 50px;
   transition: all .3s ease-in-out;
   position: relative;
   box-shadow: 0 4px 8px #1414141a;

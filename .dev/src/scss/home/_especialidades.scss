@@ -9,7 +9,6 @@
 
     @include d(s) {
       font: normal normal 900 20px/20px Roboto;
-
     }
   }
 
@@ -17,7 +16,7 @@
     max-width: 992px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    gap: 30px;
     flex-wrap: wrap;
 
     @include d(m) {
@@ -26,14 +25,13 @@
   }
 
   &__card {
-    box-shadow: 0 4px 8px #1414141A;
+    box-shadow: 0 4px 8px #1414141a;
     border-radius: 8px;
-    padding: 27px 50px;
+    width: 225px;
     margin-bottom: 40px;
     background: #fff;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     position: relative;
-
 
     @include d(m) {
       padding: 25px 40px;
@@ -43,12 +41,11 @@
       padding: 15px 20px;
     }
 
-
     i {
       text-align: center;
       display: block;
-      color: #47CC8A; 
-      margin: 0.5em 0 0.5em; 
+      color: #47cc8a;
+      margin: 0.5em 0 0.5em;
       font-size: 2.5em;
     }
 
@@ -66,8 +63,8 @@
       .especialidades__card--desc {
         color: $texto-branco;
       }
-      &::after{
-        content: url('../assets/setinha-b.svg');
+      &::after {
+        content: url("../assets/setinha-b.svg");
         position: absolute;
         left: 2%;
         right: 0;
@@ -84,8 +81,8 @@
     max-width: 300px;
     text-align: center;
     background: $verde-claro;
-    background: #40C187 0% 0% no-repeat padding-box;
-    border: 1px solid #40C187;
+    background: #40c187 0% 0% no-repeat padding-box;
+    border: 1px solid #40c187;
     border-radius: 8px;
     padding: 21px 6px;
     font: normal normal 600 16px/21px Roboto;
@@ -99,11 +96,11 @@
       padding: 19px 46px;
       color: $texto-preto;
       position: relative;
-      transition: all .3s ease-in-out;
+      transition: all 0.3s ease-in-out;
 
       &:hover {
         &:after {
-          content: url('../assets/setinha.svg');
+          content: url("../assets/setinha.svg");
           margin: 0 auto;
           position: absolute;
           right: 15px;
