@@ -377,6 +377,17 @@
     console.log(this);
 });
 
+//Resize window
+function resize() {
+  if ($(window).width() < 769) {
+    $('.card-default').removeClass('card-inativo').addClass('card-ativo');
+  }
+}
+//watch window resize
+$(window).on('resize', function() {
+  resize()
+});
+
 
 
 	document.addEventListener("DOMContentLoaded", function() {
