@@ -167,31 +167,19 @@
 				<div class="vetpoints__celular--celular-int--position">
 					<img class="vetpoints__celular--celular-int--position__img" src="wp-content/themes/frmnt-dok/res/img/celular.svg" alt="interação do iphone">
 					<div class="vetpoints__celular--celular-int__checkbox top-square square-ativo" data-celular="checkbox-1">
-						<p class="square-w">Lorem, ipsum dolor.
-							dolor
-							dolor
-							dolor
-							dolor
+						<p class="square-w">Faça seu cadastro gratuitamente.
 						</p>
-						<p class="square-b">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<p class="square-b">Baixe na loja de aplicativos do seu celular.</p>
 					</div>
 					<div class="vetpoints__celular--celular-int__checkbox mid-square" data-celular="checkbox-2">
-						<p class="square-w">Lorem, ipsum dolor.
-							dolor
-							dolor
-							dolor
-							dolor
+						<p class="square-w">Indique a rede DOK aos clientes.
 						</p>
-						<p class="square-b">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<p class="square-b">Ganhe pontos por cada indicação realizada em nossa rede.</p>
 					</div>
 					<div class="vetpoints__celular--celular-int__checkbox final-square" data-celular="checkbox-3">
-						<p class="square-w">Lorem, ipsum dolor.
-							dolor
-							dolor
-							dolor
-							dolor
+						<p class="square-w">Aproveite os benefícios.
 						</p>
-						<p class="square-b">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<p class="square-b">Utilize seus pontos em cursos CDMV e serviços da rede DOK.</p>
 					</div>
 				</div>
 
