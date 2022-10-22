@@ -4049,11 +4049,11 @@ html {
   position: relative;
 }
 
-.banner__btn {
+.banner__btn a {
+  color: #232223;
   width: 100%;
   max-width: 36px;
   height: 52px;
-  color: #232223;
   background-color: #b9cd00;
   border: 1px solid #000;
   border-radius: 12px;

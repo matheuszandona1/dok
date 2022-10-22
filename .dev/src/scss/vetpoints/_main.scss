@@ -1287,19 +1287,21 @@
   height: 660px;
   position: relative;
   &__btn {
-    position: absolute;
-    right: 20%;
-    bottom: 200px;
-    background-color: #b9cd00;
-    width: 100%;
-    max-width: 36px;
-    box-shadow: 0px 3px 16px #b9cd005c;
-    border: 1px solid #000000;
-    border-radius: 12px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #232223;
+    a {
+      color: #232223;
+      position: absolute;
+      right: 20%;
+      bottom: 200px;
+      background-color: #b9cd00;
+      width: 100%;
+      max-width: 36px;
+      box-shadow: 0px 3px 16px #b9cd005c;
+      border: 1px solid #000000;
+      border-radius: 12px;
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
