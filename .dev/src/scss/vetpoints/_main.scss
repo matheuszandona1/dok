@@ -1302,7 +1302,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
+      transition: 0.2s all ease-in-out;
+      &:hover {
+        background-color: lighten(#b9cd00, 5%);
+      }
       font-size: 24px;
       font-weight: bold;
       font-family: "exo_2extra_bold";
