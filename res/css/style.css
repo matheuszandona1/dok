@@ -4135,6 +4135,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .banner {
+    height: 380px;
     background-image: url("../img/banner-mobile.jpg");
   }
 }
@@ -4158,6 +4159,18 @@ html {
   bottom: 85px;
   right: 20%;
   box-shadow: 0 3px 16px #b9cd005c;
+}
+
+@media screen and (max-width: 767px) {
+  .banner__btn a {
+    max-width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+  }
 }
 
 .banner__btn a:hover {
