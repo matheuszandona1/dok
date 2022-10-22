@@ -2707,6 +2707,7 @@ html {
   .vetpoints__capao--container {
     max-width: 340px;
     justify-content: center;
+    padding-left: 0;
   }
 
   .vetpoints__capao--img {

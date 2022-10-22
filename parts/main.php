@@ -655,11 +655,6 @@
 });
 
 </script>
-<script>$(".card-default").click(function(e) {
-    $(this).toggleClass("card-inativo");
-    $(this).toggleClass("card-ativo");
-    console.log(this);
-});
 
 </script>
 <script>$(".vetpoints__faq--container__button").click(function(e) {

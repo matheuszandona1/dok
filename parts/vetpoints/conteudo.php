@@ -351,7 +351,7 @@
 		</p>
 		<div class="vetpoints__faq--container">
 			<ul class="vetpoints__faq--container__ul">
-				<li class="vetpoints__faq--container__li" "="">
+				<li class="vetpoints__faq--container__li" >
         <button class=" vetpoints__faq--container__button">
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 					</button>
@@ -359,7 +359,7 @@
 						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.
 					</p>
 				</li>
-				<li class="vetpoints__faq--container__li" "="">
+				<li class="vetpoints__faq--container__li" >
         <button class=" vetpoints__faq--container__button">
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 					</button>
@@ -367,7 +367,7 @@
 						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.
 					</p>
 				</li>
-				<li class="vetpoints__faq--container__li" "="">
+				<li class="vetpoints__faq--container__li" >
         <button class=" vetpoints__faq--container__button">
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 					</button>
@@ -375,7 +375,7 @@
 						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.
 					</p>
 				</li>
-				<li class="vetpoints__faq--container__li" "="">
+				<li class="vetpoints__faq--container__li" >
         <button class=" vetpoints__faq--container__button">
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 					</button>
@@ -388,6 +388,14 @@
 	</section>
 </main>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+	$(".card-default").click(function(e) {
+    $(this).toggleClass("card-inativo");
+    $(this).toggleClass("card-ativo");
+    console.log(this);
+});
+
+
+
 	document.addEventListener("DOMContentLoaded", function() {
 		var $ = $ || jQuery;
 
