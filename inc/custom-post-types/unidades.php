@@ -22,10 +22,11 @@ function frmnt_unidades()
 			'menu_name' => __('Unidades'),
 		),
 		// Control the slugs used for this taxonomy
+		// 'rewrite' => true,
 		'rewrite' => array(
 			'slug' => '', // This controls the base slug that will display before each term
 			'with_front' => false, // Don't display the category base before "/locations/"
-			'hierarchical' => true // This will allow URL's like "/locations/boston/cambridge/"
+			'hierarchical' => false // This will allow URL's like "/locations/boston/cambridge/"
 		),
 	));
 }

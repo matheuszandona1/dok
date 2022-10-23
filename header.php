@@ -1,6 +1,8 @@
 <?php
 // Var
 $customHeader = @$args['customHeader'];
+$unit = @$args['unit'];
+
 // Estilos
 wp_enqueue_style('3rd-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', array());
 
