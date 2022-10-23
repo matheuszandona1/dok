@@ -1,7 +1,7 @@
 <?php 
 $data = get_fields('options');
+// print_r($data);
 ?>
-<!-- <?php //print_r($data); ?> -->
 <?php get_header("header", array("customHeader" => "parts/header")) ?>
 
 <?php get_template_part("parts/hero", "hero", array("slider" => $data['slider'])); ?>
@@ -23,10 +23,10 @@ $data = get_fields('options');
 		<?php get_template_part("parts/home/servicoes"); ?>
 				
 		<!-- Seção dos Números do DOK -->
-		<?php get_template_part( "parts/home/numeros", "numeros", array("numeros" => $data['numeros']));; ?>
+		<?php get_template_part( "parts/home/numeros", "numeros", array("numeros" => $data['numeros'])); ?>
 
 		<!-- Seção do banne para KeroKolo do DOK -->
-		<?php get_template_part( "parts/home/kerokolo", "kerokolo", array("kerokolo" => $data['kerokolo']));; ?>
+		<?php get_template_part( "parts/home/kerokolo", "kerokolo", array()); ?>
 				
 		<!-- Seção de Comentários sobre o DOK -->
 		<?php get_template_part("parts/home/comentarios", "comentarios", array("depoimentos" => $data['depoimentos'])); ?>
@@ -37,4 +37,4 @@ $data = get_fields('options');
 	</main>
 </div>
 
-<?php get_footer("footer", array("customFooter" => "parts/home/footer")) ?>
+<?php get_footer("footer", array("customFooter" => "parts/footer")) ?>

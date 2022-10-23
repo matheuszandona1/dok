@@ -33,7 +33,7 @@ $canine = array(
 				<div class="capao-geral__container">
 					<p class="capao-geral__path">Inicio > Internações</p>
 					<div class="capao-geral__icon">
-						<img src="wp-content/themes/frmnt-dok/res/img/icon-medical-bed.svg" alt="icon página">
+						<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/icon-medical-bed.svg" alt="icon página">
 						<h1 class="capao-geral__title">Internações</h1>
 					</div>
 				</div>

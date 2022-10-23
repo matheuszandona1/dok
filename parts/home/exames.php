@@ -3,6 +3,8 @@
 		"exames" => @$args['exames'],
 		"cta" => @$args['cta_exames'],
 	);
+	// Exibe apenas se houver link de agendamento
+	if(@$options['cta']['link_agendamento']):
 ?>
 <section class="exames">
 	<div class="exames__container">
@@ -12,8 +14,8 @@
 
 		</div>
 		<div class="exames__resultados">
-			<div class="exames__resultados--preparacao"><a href="https://ser-dok-wp.dev3.fermen.to/?page_id=35">Resultados de exames</a></div>
-
+			<div class="exames__resultados--preparacao"><a href="<?php echo($options['cta']['link_agendamento'])?>">Resultados de exames</a></div>
 		</div>
 	</div>
 </section>
+<?php endif; ?>

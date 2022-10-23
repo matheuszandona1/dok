@@ -5,7 +5,7 @@
 		<div class="capao-geral__container">
 			<p class="capao-geral__path">Inicio > Clínica Geral</p>
 			<div class="capao-geral__icon">
-				<img src="wp-content/themes/frmnt-dok/res/img/mais-w.svg" alt="icon página">
+				<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/mais-w.svg" alt="icon página">
 				<h1 class="capao-geral__title">Clínica Geral</h1>
 			</div>
 		</div>
@@ -107,7 +107,7 @@
 				<div class="clinica-geral-main__desc-unidade--icons-container">
 					<div class="clinica-geral-main__desc-unidade--icons-u">
 						<div class="clinica-geral-main__desc-unidade--icons">
-							<img src="wp-content/themes/frmnt-dok/res/img/24-hours-fill.svg" alt="24 horas de atendimento">
+							<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/24-hours-fill.svg" alt="24 horas de atendimento">
 						</div>
 						<p class="clinica-geral-main__desc-unidade--icons-desc">
 							Atendimento 24h
@@ -115,7 +115,7 @@
 					</div>
 					<div class="clinica-geral-main__desc-unidade--icons-u">
 						<div class="clinica-geral-main__desc-unidade--icons">
-							<img src="wp-content/themes/frmnt-dok/res/img/icon-heart.svg" alt="24 horas de atendimento">
+							<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/icon-heart.svg" alt="24 horas de atendimento">
 						</div>
 						<p class="clinica-geral-main__desc-unidade--icons-desc">
 							Atendimento humanizado
@@ -123,7 +123,7 @@
 					</div>
 					<div class="clinica-geral-main__desc-unidade--icons-u">
 						<div class="clinica-geral-main__desc-unidade--icons">
-							<img src="wp-content/themes/frmnt-dok/res/img/mais.svg" alt="24 horas de atendimento">
+							<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/mais.svg" alt="24 horas de atendimento">
 						</div>
 						<p class="clinica-geral-main__desc-unidade--icons-desc">
 							Dermatologia, cardiologia e outras especialidades

@@ -36,7 +36,7 @@ $specialties = new WP_Query(array(
 				</g>
 			</svg>
 			<?php // TODO: Alterado o link de button para a (rever css) ?>
-			<a href="<?php echo($specialty->guid) ?>" class="especialidade__list--btn" data-id="ativo"><?php echo($specialty->post_title) ?></a>
+			<a href="<?php echo(get_the_permalink($specialty)) ?>" class="especialidade__list--btn" data-id="ativo"><?php echo($specialty->post_title) ?></a>
 		</li>
 		<?php endforeach; ?>
 	</ul>

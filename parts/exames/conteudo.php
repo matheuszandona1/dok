@@ -10,7 +10,7 @@ $meta = get_fields();
 		<div class="capao-geral__container">
 			<p class="capao-geral__path">Inicio > Exames</p>
 			<div class="capao-geral__icon">
-				<img src="wp-content/themes/frmnt-dok/res/img/mais-w.svg" alt="icon página">
+				<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/mais-w.svg" alt="icon página">
 				<h1 class="capao-geral__title">Exames</h1>
 			</div>
 		</div>

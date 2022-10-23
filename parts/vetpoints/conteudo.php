@@ -4,7 +4,7 @@
 		<div class="vetpoints__capao--container">
 			<div class="vetpoints__capao--content">
 				<div class="vetpoints__capao--logo">
-					<img src="wp-content/themes/frmnt-dok/res/img/logo-vetpoints.png" alt="">
+					<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/logo-vetpoints.png" alt="">
 				</div>
 				<div class="vetpoints__capao--content">
 					<h1 class="vetpoints__capao--title">
@@ -18,13 +18,13 @@
 						<div class="vetpoints__capao--apps">
 							<div>
 								<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
-									<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
+									<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/googleplay.png" alt="disponível no Google Play">
 								</a>
 
 							</div>
 							<!-- <div>
 								<a href="#">
-									<img src="wp-content/themes/frmnt-dok/res/img/appstore.svg" alt="disponível na App Store">
+									<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/appstore.svg" alt="disponível na App Store">
 								</a>
 							</div> -->
 
@@ -154,7 +154,7 @@
 		<div class="vetpoints__celular--container">
 			<div class="vetpoints__celular--celular-int">
 				<div class="vetpoints__celular--celular-int--position">
-					<img class="vetpoints__celular--celular-int--position__img" src="wp-content/themes/frmnt-dok/res/img/celular.svg" alt="interação do iphone">
+					<img class="vetpoints__celular--celular-int--position__img" src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/celular.svg" alt="interação do iphone">
 					<div class="vetpoints__celular--celular-int__checkbox top-square square-ativo" data-celular="checkbox-1">
 						<p class="square-w">Faça seu cadastro gratuitamente.
 						</p>
@@ -174,7 +174,7 @@
 
 				<div class="vetpoints__celular--links">
 					<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
-						<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
+						<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/googleplay.png" alt="disponível no Google Play">
 					</a>
 
 				</div>
@@ -297,7 +297,7 @@
 		</div>
 		<div class="vetpoints__cta--download">
 			<a href="https://play.google.com/store/apps/details?id=co.donuz.cdmv">
-				<img src="wp-content/themes/frmnt-dok/res/img/googleplay.png" alt="disponível no Google Play">
+				<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/googleplay.png" alt="disponível no Google Play">
 			</a>
 
 		</div>

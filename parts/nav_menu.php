@@ -7,12 +7,15 @@
 	// Especialidades
 	$specialties = new WP_Query(array(
 		'post_type' => 'especialidades',
-		'posts_per_page' => 12
+		'posts_per_page' => 99,
+		'order' => 'ASC',
+		'orderby' => 'title'
 	));
 ?>
+
 <nav class="header__nav">
 	<ul class="header__nav--ul">
-		<li><a class="header__nav--hover" href="https://ser-dok-wp.dev3.fermen.to/?post_type=especialidades&p=74">ESPECIALIDADES</a></li>
+		<li><a class="header__nav--hover" href="<?php echo(get_the_permalink($specialties->posts[0])) ?>">ESPECIALIDADES</a></li>
 		<?php wp_nav_menu(array(
 		"menu" => "principal",
 		"container" => "",
@@ -24,7 +27,7 @@
 		<ul data-menu="1" class="header__nav--hover-ul slide-down" style="columns: 3; -webkit-columns: 3; -moz-columns: 3;">
 		<?php foreach($specialties->posts as $specialty): ?>
 				<li>
-						<a class="header__nav--links" href="<?php echo($specialty->guid) ?>"><?php echo($specialty->post_title) ?></a>
+						<a class="header__nav--links" href="<?php echo(get_the_permalink($specialty)) ?>"><?php echo($specialty->post_title) ?></a>
 				</li>
 		<?php endforeach ?>
 		</ul>
@@ -38,7 +41,7 @@
 				<a class="header__nav-mobile--cascata" href="javascript:void(0)">ESPECIALIDADES </a>
 				<?php foreach(array_slice($specialties->posts,0,999) as $specialty): ?>
 					<div class="header__nav-mobile--cascata-children">
-						<a class="header__nav-mobile--links" href="<?php echo($specialty->guid) ?>"><?php echo($specialty->post_title) ?></a>
+						<a class="header__nav-mobile--links" href="<?php echo(get_the_permalink($specialty)) ?>"><?php echo($specialty->post_title) ?></a>
 					</div>	
 				<?php endforeach ?>
 			</li>

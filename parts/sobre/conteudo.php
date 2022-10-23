@@ -15,7 +15,7 @@ function wph_add_class_for_p_tag($content, $class) {
 			<div class="capao-geral__container">
 				<p class="capao-geral__path">Inicio > Sobre o DOK</p>
 				<div class="capao-geral__icon">
-					<img src="wp-content/themes/frmnt-dok/res/img/icon-medical-load.svg" alt="icon página">
+					<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/icon-medical-load.svg" alt="icon página">
 					<h1 class="capao-geral__title">Sobre o DOK</h1>
 				</div>
 			</div>
@@ -28,7 +28,7 @@ function wph_add_class_for_p_tag($content, $class) {
 				<div class="sobre-main__container--top">
 					<div class="sobre-main__desc">
 						<div class="sobre-main__top">
-							<img src="wp-content/themes/frmnt-dok/res/img/patinha-fill.svg" alt="">
+							<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/patinha-fill.svg" alt="">
 							<h2 class="sobre-main__top--title"><?php echo($pageData['sobre_titulo']) ?></h2>
 						</div>
 						<?php echo(wph_add_class_for_p_tag($pageData['sobre_texto'], "sobre-main__desc--text")) ?>
@@ -48,7 +48,7 @@ function wph_add_class_for_p_tag($content, $class) {
 					<?php endforeach; ?>
 				</div>
 				<div class="sobre-main__top">
-					<img src="wp-content/themes/frmnt-dok/res/img/building.svg" alt="">
+					<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/building.svg" alt="">
 					<h2 class="sobre-main__top--title">INFRAESTRUTURA</h2>
 				</div>
 				<?php echo(wph_add_class_for_p_tag($pageData['infra_texto'],'sobre-main__text-p')) ?>
