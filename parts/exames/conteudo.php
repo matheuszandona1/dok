@@ -1,3 +1,8 @@
+<?php
+// Meta Dados
+$meta = get_fields();
+?>
+<!-- <?php //print_r($meta) ?> -->
 <main class="main">
 
 	<!-- Seção do Capão -->
@@ -17,9 +22,9 @@
 		<div class="exame__container">
 			<h2 class="exame__title">CONSULTA DE EXAME</h2>
 			<p class="exame__desc">Digite o nome de seu animal e o CPF de seu responsável nos campos abaixo para verificar o resultado do exame realizado.</p>
-			<form action="" class="exame__form">
-				<input type="text" required="" placeholder="NOME DO PET" class="exame__form--input">
-				<input type="text" required="" placeholder="CPF DO RESPONSÁVEL" class="exame__form--input">
+			<form target="_blank" action="<?php echo(@$meta['aplicacao_externa'])?>" method="<?php echo(@$meta['metodo_de_envio'])?>" class="exame__form">
+				<input type="text" name="<?php echo(@$meta['campo_nome'])?>" required="" placeholder="NOME DO PET" class="exame__form--input">
+				<input type="text" name="<?php echo(@$meta['campoe_exame'])?>" required="" placeholder="CPF DO RESPONSÁVEL" class="exame__form--input">
 				<button class="exame__form--btn">BUSCAR</button>
 			</form>
 		</div>
