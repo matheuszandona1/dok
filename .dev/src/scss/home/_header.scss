@@ -1,5 +1,9 @@
 .header {
   position: relative;
+  &__nav-menu-mobile-scroll{
+    overflow-y: auto;
+    max-height: 200px;
+  }
 
   &__container {
     max-width: 992px;
@@ -15,6 +19,8 @@
     @include d(s) {
       max-width: 360px;
       padding: 10px 0px;
+      justify-content: unset;
+      gap:30px
     }
   }
 
@@ -81,7 +87,7 @@
       position: relative;
       align-items: center;
       transition: all 0.2s ease-in-out;
-
+      
       &:hover {
         background-color: #40c1877b;
         &.telefone1 {
@@ -106,14 +112,57 @@
       @include d(s) {
         padding: 9px;
 
+
         img {
           transform: scale(0.7);
         }
       }
     }
+    &--img{
+    
+        @include d(s){
+          display: none;
+        
+      }
+    }
+    &--li{
+      position: relative;
+      &.before{
+
+        p{
+          position: absolute;
+          font-size: 12px;
+          left: 5px;
+          top:-5px;
+          color: $texto-cinza-claro;
+          z-index: 9;
+        }
+      }
+    }
 
     .nav-units {
+      &:focus-visible{
+        outline: none;
+      }
       text-transform: uppercase;
+      border: none;
+      color:$verde-claro;
+      font-family: "Roboto", sans-serif;
+      padding: 10px 0px;
+      padding-right: 10px;
+      position: relative;
+      transition: .2s all ease-in-out;
+      &:hover{
+        font-weight: bold;
+        background-color: transparent;
+      }
+      p{
+        position: absolute;
+        width: 100%;
+        background-color: $texto-cinza;
+        height: 1px;
+
+      }
     }
 
     &--li:first-of-type .div1 {
@@ -348,7 +397,7 @@
     }
 
     &--container {
-      max-width: 175px;
+      max-width: 200px;
       margin: 0 30px;
       padding-top: 40px;
     }
