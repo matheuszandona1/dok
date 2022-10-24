@@ -494,6 +494,7 @@
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
+
   }
 
   .swiper-button-next,
@@ -539,6 +540,9 @@
     .swiper-button-next,
     .swiper-button-prev {
       display: block;
+      @include d(s){
+        display: none;
+      }
     }
 
     .swiper-button-prev {

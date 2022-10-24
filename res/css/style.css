@@ -790,6 +790,12 @@ html {
   display: block;
 }
 
+@media screen and (max-width: 767px) {
+  .swiper-capao:hover .swiper-button-next, .swiper-capao:hover .swiper-button-prev {
+    display: none;
+  }
+}
+
 .swiper-capao:hover .swiper-button-prev {
   transform: rotate(-180deg);
 }
