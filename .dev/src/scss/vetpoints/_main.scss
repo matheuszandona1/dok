@@ -437,6 +437,20 @@
       &__checkbox {
         width: 100%;
 
+        .imgs-position{
+          width: 250px;
+          height: 534px;
+          position: absolute;
+          top: 17px;
+          z-index: -1;
+          left: 13px;
+          border-radius: 20px;
+          @include d(s){
+            left: 0;
+            right: 0 ;
+            margin: 0 auto;
+          }
+        }
         .square-w {
           box-sizing: border-box;
           position: absolute;
@@ -480,6 +494,7 @@
           opacity: 0;
           visibility: hidden;
           transition: all 0.3s ease-in-out;
+
 
           &.square-ativo {
             opacity: 1;

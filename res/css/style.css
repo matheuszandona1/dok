@@ -3247,6 +3247,24 @@ html {
   width: 100%;
 }
 
+.vetpoints__celular--celular-int__checkbox .imgs-position {
+  width: 250px;
+  height: 534px;
+  z-index: -1;
+  border-radius: 20px;
+  position: absolute;
+  top: 17px;
+  left: 13px;
+}
+
+@media screen and (max-width: 767px) {
+  .vetpoints__celular--celular-int__checkbox .imgs-position {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}
+
 .vetpoints__celular--celular-int__checkbox .square-w {
   box-sizing: border-box;
   max-width: 144px;
