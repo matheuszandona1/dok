@@ -341,6 +341,39 @@
             ]
         },
         {
+            "key": "field_6356ada92668f",
+            "label": "Vídeo",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_6356adb33917f",
+            "label": "Link Youtube",
+            "name": "video_link",
+            "type": "url",
+            "instructions": "Link para o vídeo do Youtube",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/youtu.be\/16TqZ9udgpw",
+            "placeholder": "Ex: https:\/\/youtu.be\/16TqZ9udgpw"
+        },
+        {
             "key": "field_6328b81c79b2d",
             "label": "Números (Big Numbers)",
             "name": "",
@@ -555,6 +588,45 @@
                     "delay": 0
                 }
             ]
+        },
+        {
+            "key": "field_6356ac4f23069",
+            "label": "DOK",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_6356ac5a2306a",
+            "label": "Página",
+            "name": "vetpoints_pagina",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
         }
     ],
     "location": [
@@ -575,5 +647,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666582986
+    "modified": 1666625011
 }

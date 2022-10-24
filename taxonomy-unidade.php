@@ -20,7 +20,8 @@ $data = get_fields('options');
 		<?php get_template_part( "parts/home/quemsomos", "quem-somos", array("quem-somos" => $data['quem-somos'])); ?>
 				
 		<!-- Seção sobre Quem Somos -->
-		<?php get_template_part( "parts/home/video", "video", array("video" => $data['video'])); ?>
+		<?php get_template_part( "parts/home/video", "video", array("video" => $data['video_link'])); ?>
+		
 		<!-- Seção dos Nossos Serviços -->
 		<?php get_template_part("parts/home/servicoes"); ?>
 				
@@ -34,7 +35,7 @@ $data = get_fields('options');
 		<?php get_template_part("parts/home/comentarios", "comentarios", array("depoimentos" => $data['depoimentos'])); ?>
 
 		<!-- Seção de redirect para o vetpoints -->
-	<?php get_template_part("parts/home/vetpoints"); ?>-->
+		<?php get_template_part("parts/home/vetpoints", "vetpoints", array("vetpoints" => $data['vetpoints_pagina'])); ?>
 
 	</main>
 </div>
