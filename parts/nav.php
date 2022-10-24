@@ -57,12 +57,11 @@ $data = @$args['data'];
 				</li>
 			<?php endif; ?>
 			<li class="header__options--li before after">
-				<p>Você está em</p>
 				<select class="nav-units">
 					<option selected value="<?php echo (get_term_link($_SESSION['UNIT'])) ?>"><?php echo ($_SESSION['UNIT']->name) ?></option>
-					<?php foreach ($units as $unit) : 
-						if($unit->term_id != $_SESSION['UNIT']->term_id):?>
-					<option value="<?php echo ($unit->permalink) ?>"><?php echo ($unit->name) ?></option>
+					<?php foreach ($units as $currentUnit) : 
+						if($currentUnit->term_id != $_SESSION['UNIT']->term_id):?>
+					<option value="<?php echo ($currentUnit->permalink) ?>"><?php echo ($currentUnit->name) ?></option>
 					<?php endif; endforeach; ?>
 				</select>
 			</li>
