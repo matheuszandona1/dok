@@ -8,7 +8,7 @@ $options = array(
   <div class="swiper-wrapper">
     <?php foreach ($options['slider'] as $slide) :
       $image = @$slide['imagem']['sizes']['1536x1536'];
-      $image_mobile = @$slide['imagem_mobile']['sizes']['medium'];
+      $image_mobile = @$slide['imagem_mobile']['sizes']['large'];
       $text = @$slide['texto'];
       $link = ($slide['link']) ? $slide['link']['url'] : "";
       $overlay = ($text) ? "linear-gradient(90deg, #40c18767 15% 86%)," : "";
@@ -17,13 +17,11 @@ $options = array(
       <style scoped>
         .content-slide<?php echo @$slide['imagem']['id'] ?> {
           background: <?php echo ($overlay) ?> url('<?php echo (($image_mobile) ? $image_mobile : $image) ?>') center top / cover no-repeat !important;
-          image-rendering: pixelated;
         }
 
         @media (min-width: 640px) {
           .content-slide<?php echo @$slide['imagem']['id'] ?> {
             background: <?php echo ($overlay) ?> url('<?php echo ($image) ?>') center top / cover no-repeat !important;
-          image-rendering: pixelated;
 
           }
         }
