@@ -127,8 +127,9 @@
 
   &__mapa {
     margin-top: -110px;
-
+    
     img {
+      clip-path: circle(43%);
       max-width: 100%;
       height: auto;
     }
@@ -150,6 +151,7 @@
       &--mapa {
         img {
           max-width: 100%;
+          clip-path: circle(43%);
           height: auto;
         }
       }
