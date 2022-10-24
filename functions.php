@@ -180,9 +180,9 @@ function frmnt_unit()
 {
 	// Checa se já existe a unidade definida (cookie)
 	if (isset($_COOKIE['UNIT'])) {
-		if (!isset($_SESSION['UNIT'])) {
+		// if (!isset($_SESSION['UNIT'])) {
 			frmnt_set_unit($_COOKIE['UNIT']);
-		}
+		// }
 	} else {
 		frmnt_set_unit();
 	}

@@ -13,7 +13,7 @@ $options = array(
       $link = ($slide['link']) ? $slide['link']['url'] : "";
       $overlay = ($text) ? "linear-gradient(90deg, #40c18767 15% 86%)," : "";
     ?>
-    <!-- <?php print_r($slide); ?> -->
+    <!-- <?php //print_r($slide); ?> -->
       <style scoped>
         .content-slide<?php echo @$slide['imagem']['id'] ?> {
           background: <?php echo ($overlay) ?> url('<?php echo (($image_mobile) ? $image_mobile : $image) ?>') center top / cover no-repeat !important;
