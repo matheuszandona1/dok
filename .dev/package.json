@@ -1,7 +1,7 @@
 {
    "name": "frmnt-dok",
-   "version": "1.0.10",
-   "license" : "SEE LICENSE IN CONTRACT",
+   "version": "1.0.14",
+   "license": "SEE LICENSE IN CONTRACT",
    "author": "Fermen.to Innovation Lab <devs@fermen.to> (https://fermen.to/)",
    "scripts": {
       "dev": "parcel serve src/index.html",
@@ -21,6 +21,7 @@
    },
    "dependencies": {
       "@splidejs/splide": "^4.0.7",
+      "dir-archiver": "^2.0.0",
       "imask": "^6.4.2",
       "jquery": "^3.6.0",
       "parcel-namer-custom": "^0.2.0",
@@ -39,6 +40,6 @@
       ".woff$": "res/fonts/[name].[type]",
       ".ttf$": "res/fonts/[name].[type]",
       ".woff2$": "res/fonts/[name].[type]",
-      ".eot$": "res/fonts/[name].[type]"   
+      ".eot$": "res/fonts/[name].[type]"
    }
 }
