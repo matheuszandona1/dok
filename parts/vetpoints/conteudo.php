@@ -154,7 +154,7 @@
 		<div class="vetpoints__celular--container">
 			<div class="vetpoints__celular--celular-int">
 				<div class="vetpoints__celular--celular-int--position">
-					<img class="vetpoints__celular--celular-int--position__img" src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/celular.svg" alt="interação do iphone">
+					<img class="vetpoints__celular--celular-int--position__img" src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/celular.png" alt="interação do iphone">
 					<div class="vetpoints__celular--celular-int__checkbox top-square square-ativo" data-celular="checkbox-1">
 						<p class="square-w">Faça seu cadastro gratuitamente.
 						</p>
