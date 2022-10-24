@@ -36,27 +36,8 @@
             "placeholder": ""
         },
         {
-            "key": "field_6347264406343",
-            "label": "Campo Exame",
-            "name": "campo_exame",
-            "type": "text",
-            "instructions": "Nome interno do campo para integração com sistema de exame.",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "exame",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
             "key": "field_6347274906344",
-            "label": "Campo Nome",
+            "label": "Campo Nome do PET",
             "name": "campo_nome",
             "type": "text",
             "instructions": "Nome interno do campo para integração com sistema de exame.",
@@ -68,6 +49,25 @@
                 "id": ""
             },
             "default_value": "nome",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6347264406343",
+            "label": "Campo CPF",
+            "name": "campo_exame",
+            "type": "text",
+            "instructions": "Nome interno do campo CPF para integração com sistema de exame.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "exame",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -139,5 +139,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1665608064
+    "modified": 1666655183
 }
