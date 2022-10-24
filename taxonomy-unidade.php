@@ -34,7 +34,6 @@ $data = get_fields('options');
 		<?php get_template_part("parts/home/comentarios", "comentarios", array("depoimentos" => $data['depoimentos'])); ?>
 
 		<!-- Seção de redirect para o vetpoints -->
-		<?php get_template_part("parts/home/vetpoints"); ?>
 
 	</main>
 </div>
