@@ -17,11 +17,14 @@ $options = array(
       <style scoped>
         .content-slide<?php echo @$slide['imagem']['id'] ?> {
           background: <?php echo ($overlay) ?> url('<?php echo (($image_mobile) ? $image_mobile : $image) ?>') center top / cover no-repeat !important;
+          image-rendering: pixelated;
         }
 
         @media (min-width: 640px) {
           .content-slide<?php echo @$slide['imagem']['id'] ?> {
             background: <?php echo ($overlay) ?> url('<?php echo ($image) ?>') center top / cover no-repeat !important;
+          image-rendering: pixelated;
+
           }
         }
       </style>
