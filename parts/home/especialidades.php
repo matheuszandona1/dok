@@ -4,7 +4,14 @@
 		'post_type' => 'especialidades',
 		'posts_per_page' => 99,
 		'order' => 'ASC',
-		'orderby' => 'title'
+		'orderby' => 'title',
+		'tax_query' => array(
+        array (
+            'taxonomy' => 'unidade',
+            'field' => 'slug',
+            'terms' => $_SESSION['UNIT']->slug,
+        )
+    ),
 	));
 ?>
 <section class="especialidades">

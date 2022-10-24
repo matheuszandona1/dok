@@ -123,6 +123,45 @@
             ]
         },
         {
+            "key": "field_635608cc755ee",
+            "label": "Unidades",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_63560936755f1",
+            "label": "Unidade Padrão",
+            "name": "unidade_padrao",
+            "type": "taxonomy",
+            "instructions": "A unidade quando não houver seleção",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "unidade",
+            "field_type": "checkbox",
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
             "key": "field_6328b75179b22",
             "label": "Exames",
             "name": "",
@@ -536,5 +575,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666393783
+    "modified": 1666582986
 }

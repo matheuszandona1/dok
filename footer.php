@@ -1,9 +1,8 @@
 <?php
 	$customFooter = @$args['customFooter'];
-	$unit = @$args['unit'];
+	$unit = $_SESSION['UNIT']->data;
 	$data = @$args['data'];
 ?>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <footer class="footer">
 		<div class="footer__container">
 			<div class="footer__container-first">

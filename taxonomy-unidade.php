@@ -1,14 +1,13 @@
-<?php 
+<?php
 $term = get_queried_object();
-$unit = get_fields($term);
+frmnt_set_unit($term->term_id);
 $data = get_fields('options');
-// print_r($unit);
+// print_r($term);
 // print_r($data);
 ?>
 
-<?php get_header("header", array("customHeader" => "parts/header", "unit" => $unit, "data" => $data)) ?>
+<?php get_header("header", array("customHeader" => "parts/header", "data" => $data)) ?>
 <?php get_template_part("parts/hero", "hero", array("slider" => $data['slider'])); ?>
-<h2>Você está em <?php echo($term->name) ?></h2>
 <div class="dog-claw">
 	<main class="main">
 		<!-- Seção de Exames -->
@@ -40,4 +39,4 @@ $data = get_fields('options');
 	</main>
 </div>
 
-<?php get_footer("footer", array("customFooter" => "parts/footer", "unit" => $unit, "data" => $data)) ?>
+<?php get_footer("footer", array("customFooter" => "parts/footer", "data" => $data)) ?>

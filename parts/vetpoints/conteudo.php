@@ -354,7 +354,6 @@
 	$(".card-default").click(function(e) {
     $(this).toggleClass("card-inativo");
     $(this).toggleClass("card-ativo");
-    console.log(this);
 });
 
 //Resize window

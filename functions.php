@@ -15,9 +15,9 @@ function frmnt_setup()
 	));
 
 	// Tamanhos de Imagem
-	add_image_size( 'card', 260, 192 );
-	add_image_size( 'slider', 1385, 330 );
-	add_image_size( 'hero', 950, 210 );
+	add_image_size('card', 260, 192);
+	add_image_size('slider', 1385, 330);
+	add_image_size('hero', 950, 210);
 
 	// Logo
 	add_theme_support(
@@ -131,7 +131,7 @@ function addUriQuery($base, $query)
 {
 	$url = parse_url($base);
 	$queries = [];
-	if(isset($url['query'])) {
+	if (isset($url['query'])) {
 		parse_str($url['query'], $queries);
 	}
 	parse_str($query, $query);
@@ -143,4 +143,62 @@ function frmnt_pClass($content, $class)
 {
 	$content = str_replace('<p>', "<p class='$class'>", $content);
 	return $content;
+}
+
+// Unidade
+
+function frmnt_set_unit($unitId = null)
+{
+	// Checa se não foi passado o Id
+	if (!$unitId) {
+		// Busca configuração de Unidade padrão
+		$defaultUnit = get_field('unidade_padrao', 'options');
+		// Checa se há unidade padrão configurada
+		if ($defaultUnit) {
+			// Seta o Id
+			$unitId = @$defaultUnit[0]->term_id;
+
+			// Caso não exista padrão
+		} else {
+			// Busca a primeira unidade cadastrada
+			$firstUnit = @get_terms(array(
+				'taxonomy' => 'unidade'
+			))[0];
+			// Seta o Id
+			$unitId = $firstUnit->term_id;
+		}
+	}
+
+	// Baixa dados da unidade
+	$_SESSION['UNIT'] = get_term($unitId, "unidade");
+	$_SESSION['UNIT']->data = get_fields($_SESSION['UNIT']);
+	// Seta o Cookir
+	setcookie("UNIT", $_SESSION['UNIT']->term_id, time() + 60 * 60 * 24 * 365, "/");
+}
+
+function frmnt_unit()
+{
+	// Checa se já existe a unidade definida (cookie)
+	if (isset($_COOKIE['UNIT'])) {
+		if (!isset($_SESSION['UNIT'])) {
+			frmnt_set_unit($_COOKIE['UNIT']);
+		}
+	} else {
+		frmnt_set_unit();
+	}
+}
+add_action('init', 'frmnt_unit');
+
+function get_units() {
+	if(!isset($_SESSION['UNITS'])) {
+		$units = get_terms(array(
+			'taxonomy' => 'unidade'
+		));
+		foreach ($units as $unit) {
+			$unit->permalink = get_term_link($unit);
+		}
+		$_SESSION['UNITS'] = $units;
+	}
+	
+	return $_SESSION['UNITS'];
 }
