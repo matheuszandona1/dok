@@ -4238,7 +4238,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .banner {
-    height: 480px;
+    height: 280px;
     background-image: url("../img/banner-mobile.png");
     background-size: cover;
   }
