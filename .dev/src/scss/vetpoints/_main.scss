@@ -1294,15 +1294,16 @@
 }
 
 .banner {
-  background-image: url("../assets/banner.jpg");
+  background-image: url("../assets/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 660px;
   position: relative;
   @include d(s) {
-    background-image: url("../assets/banner-mobile.jpg");
-    height: 380px;
+    
+    background-image: url("../assets/banner-mobile.png");
+    height: 480px;
   }
   &__btn {
     a {
