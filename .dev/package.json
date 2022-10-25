@@ -1,6 +1,6 @@
 {
    "name": "frmnt-dok",
-   "version": "1.0.20",
+   "version": "1.0.23",
    "license": "SEE LICENSE IN CONTRACT",
    "author": "Fermen.to Innovation Lab <devs@fermen.to> (https://fermen.to/)",
    "scripts": {
@@ -10,7 +10,7 @@
       "livereload": "livereload -e php,js,css -x \"/.dev//\" ../",
       "prebuild": "rm -rf ../res/",
       "build": "parcel build src/index.html --dist-dir='../' --public-url='wp-content/themes/frmnt-dok/' --no-cache --no-source-maps --no-content-hash",
-      "bundle": "yarn build && cd ..; if [ -e ../$npm_package_name.zip ]; then cp -f ../$npm_package_name.zip ../$npm_package_name-$npm_package_version.zip; fi && dir-archiver --src . --dest ../$npm_package_name.zip --exclude *.html .dev .DS_Store .stylelintrc.json .editorconfig .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock && perl -i -pe 's/\"version\": \"\\d+\\.\\d+\\.\\K(\\d+)/ $1+1 /e' .dev/package.json && perl -i -pe 's/Version: \\d+\\.\\d+\\.\\K(\\d+)/ $1+1 /e' style.css"
+      "bundle": "yarn build && cd ..; if [ -e ../$npm_package_name.zip ]; then cp -f ../$npm_package_name.zip ../$npm_package_name-$npm_package_version.zip; fi && dir-archiver --src . --dest ../$npm_package_name.zip --exclude *.html *.map.js *.map.css .dev .DS_Store .stylelintrc.json .editorconfig .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock && perl -i -pe 's/\"version\": \"\\d+\\.\\d+\\.\\K(\\d+)/ $1+1 /e' .dev/package.json && perl -i -pe 's/Version: \\d+\\.\\d+\\.\\K(\\d+)/ $1+1 /e' style.css"
    },
    "devDependencies": {
       "@parcel/transformer-sass": "^2.0.1",

@@ -10,7 +10,7 @@
 	<div class="exames__container">
 		<div class="exames__content">
 			<h3 class="exames__title">EXAMES</h3>
-			<p class="exames__desc"><?php echo( strip_tags(@$options['exames']['chamada'], ["strong","em","a","span","del"]) ) ?></p>
+			<p class="exames__desc"><?php echo( strip_tags(@$options['exames']['chamada'], ["b","strong","em","a","span","del"]) ) ?></p>
 
 		</div>
 		<div class="exames__resultados">
