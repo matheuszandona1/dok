@@ -1296,12 +1296,12 @@
 .banner {
   background-image: url("../assets/banner.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
-  height: 660px;
+  height: 400px;
   position: relative;
   @include d(s) {
-    
+    background-size: cover;
     background-image: url("../assets/banner-mobile.png");
     height: 480px;
   }

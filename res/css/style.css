@@ -4228,11 +4228,11 @@ html {
 }
 
 .banner {
-  height: 660px;
+  height: 400px;
   background-image: url("../img/banner.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   position: relative;
 }
 
@@ -4240,6 +4240,7 @@ html {
   .banner {
     height: 480px;
     background-image: url("../img/banner-mobile.png");
+    background-size: cover;
   }
 }
 
