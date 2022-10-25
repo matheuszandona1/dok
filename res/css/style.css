@@ -4229,7 +4229,7 @@ html {
 
 .banner {
   height: 660px;
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4238,8 +4238,8 @@ html {
 
 @media screen and (max-width: 767px) {
   .banner {
-    height: 380px;
-    background-image: url("../img/banner-mobile.jpg");
+    height: 480px;
+    background-image: url("../img/banner-mobile.png");
   }
 }
 
@@ -4342,6 +4342,7 @@ html {
   max-width: 470px;
   text-align: center;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .youtube-video-player {
