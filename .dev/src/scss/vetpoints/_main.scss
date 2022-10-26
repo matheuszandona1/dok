@@ -1298,13 +1298,13 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  height: 400px;
+  height: 600px;
   position: relative;
   @include d(s) {
-    background-size: cover;
+    background-size: contain;
     
     background-image: url("../assets/banner-mobile.png");
-    height: 280px;
+    height: 480px;
   }
   &__btn {
     a {
