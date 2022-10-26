@@ -38,7 +38,7 @@ $data = @$args['data'];
 			<?php endif; ?>
 			<?php if (@$unit['ctas']['whatsapp']) : ?>
 				<li class="header__options--li">
-					<a class="header__options--a" href="<?php echo (@$unit['ctas']['whatsapp']) ?>">
+					<a class="header__options--a" href="https://web.whatsapp.com/send?phone=<?php echo (@$unit['ctas']['whatsapp']) ?>">
 						<div class="header__options--img header__options--img-second">
 							<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/whatsapp.svg" alt="Contato via WhatsApp">
 							<p class="header__options--text">Whatsapp</p>
