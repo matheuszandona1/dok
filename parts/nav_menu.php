@@ -89,7 +89,7 @@ $specialties = new WP_Query(array(
 				<?php if (@$unit['ctas']['telefone']) : ?>
 					<li class="header__options--li">
 						<a class="header__options--a" href="<?php echo (@$unit['ctas']['telefone']) ?>">
-							<div class="header__options--img header__nav-mobile--buttons">
+							<div class="header__options--img header__options--mobile header__nav-mobile--buttons">
 								<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/phone.svg" alt="Telefone para contato">
 								<p class="header__options--text header__nav-mobile--text">Telefone</p>
 							</div>

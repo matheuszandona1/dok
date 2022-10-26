@@ -357,6 +357,10 @@ html {
   .header__options--img {
     display: none;
   }
+
+  .header__options--mobile {
+    display: flex;
+  }
 }
 
 .header__options--li {

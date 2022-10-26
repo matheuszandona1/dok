@@ -119,11 +119,21 @@
       }
     }
     &--img{
-    
+
         @include d(s){
+          
           display: none;
         
       }
+    }
+
+    &--mobile{
+      
+      @include d(s){
+          
+        display: flex;
+      
+    }
     }
     &--li{
       position: relative;
