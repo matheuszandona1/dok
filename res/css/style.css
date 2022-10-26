@@ -4232,7 +4232,7 @@ html {
 }
 
 .banner {
-  height: 600px;
+  height: 400px;
   background-image: url("../img/banner.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -4242,7 +4242,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .banner {
-    height: 380px;
+    height: 260px;
     background-image: url("../img/banner-mobile.png");
     background-size: auto;
   }

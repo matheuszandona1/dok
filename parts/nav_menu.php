@@ -69,7 +69,7 @@ $specialties = new WP_Query(array(
 				<?php if (@$options['ctas']['agendamento']) : ?>
 					<li class="header__options--li">
 						<a target="_blank" class="header__options--a" href="<?php echo (@$options['ctas']['agendamento']) ?>">
-							<div class="header__options--img header__options--img-first header__nav-mobile--buttons">
+							<div class="header__options--img header__options--img-first header__options--mobile header__nav-mobile--buttons">
 								<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/calendar.png" alt="Agendamento">
 								<p class="header__options--text header__nav-mobile--text">Agendamento</p>
 							</div>
@@ -79,7 +79,7 @@ $specialties = new WP_Query(array(
 				<?php if (@$unit['ctas']['whatsapp']) : ?>
 					<li class="header__options--li">
 						<a class="header__options--a" href="<?php echo (@$unit['ctas']['whatsapp']) ?>">
-							<div class="header__options--img header__options--img-second header__nav-mobile--buttons">
+							<div class="header__options--img header__options--img-second header__options--mobile header__nav-mobile--buttons">
 								<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/whatsapp.svg" alt="WhatsApp">
 								<p class="header__options--text header__nav-mobile--text ">Whatsapp</p>
 							</div>
@@ -88,7 +88,7 @@ $specialties = new WP_Query(array(
 				<?php endif; ?>
 				<?php if (@$unit['ctas']['telefone']) : ?>
 					<li class="header__options--li">
-						<a class="header__options--a" href="<?php echo (@$unit['ctas']['telefone']) ?>">
+						<a class="header__options--a" href="tel://<?php echo (@$unit['ctas']['telefone']) ?>">
 							<div class="header__options--img header__options--mobile header__nav-mobile--buttons">
 								<img src="<?php echo (get_stylesheet_directory_uri()) ?>/res/img/phone.svg" alt="Telefone para contato">
 								<p class="header__options--text header__nav-mobile--text">Telefone</p>
