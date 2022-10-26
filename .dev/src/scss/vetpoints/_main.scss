@@ -1301,10 +1301,10 @@
   height: 600px;
   position: relative;
   @include d(s) {
-    background-size: contain;
+    background-size: auto;
     
     background-image: url("../assets/banner-mobile.png");
-    height: 480px;
+    height: 380px;
   }
   &__btn {
     a {
