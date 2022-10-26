@@ -1,5 +1,9 @@
 .header {
   position: relative;
+  .telefone{
+    width: 112.74px;
+    height: 23.52px;
+  }
   &__nav-menu-mobile-scroll{
     overflow-y: auto;
     max-height: 200px;
