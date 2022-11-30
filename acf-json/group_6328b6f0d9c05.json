@@ -35,7 +35,7 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "table",
+            "layout": "block",
             "button_label": "",
             "sub_fields": [
                 {
@@ -102,7 +102,7 @@
                     "default_value": "",
                     "tabs": "visual",
                     "toolbar": "basic",
-                    "media_upload": 1,
+                    "media_upload": 0,
                     "delay": 0
                 },
                 {
@@ -119,6 +119,28 @@
                         "id": ""
                     },
                     "return_format": "array"
+                },
+                {
+                    "key": "field_635bcc0b01643",
+                    "label": "Unidades",
+                    "name": "unidades",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "unidade",
+                    "field_type": "multi_select",
+                    "allow_null": 0,
+                    "add_term": 0,
+                    "save_terms": 0,
+                    "load_terms": 0,
+                    "return_format": "id",
+                    "multiple": 0
                 }
             ]
         },
@@ -590,6 +612,38 @@
             ]
         },
         {
+            "key": "field_635bc41fd6291",
+            "label": "KeroKolo",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_635bc430d6292",
+            "label": "Link KeroKolo",
+            "name": "kerokolo_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
             "key": "field_6356ac4f23069",
             "label": "DOK",
             "name": "",
@@ -647,5 +701,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666625011
+    "modified": 1666960743
 }
