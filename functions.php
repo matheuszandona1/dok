@@ -176,6 +176,20 @@ function frmnt_set_unit($unitId = null)
 	setcookie("UNIT", $_SESSION['UNIT']->term_id, time() + 60 * 60 * 24 * 365, "/");
 }
 
+function wpdocs_register_my_custom_menu_page()
+{
+	add_menu_page(
+		__('Unidades', 'textdomain'),
+		'Unidades',
+		'manage_options',
+		'edit-tags.php?taxonomy=unidade',
+		'',
+		'dashicons-location',
+		5
+	);
+}
+add_action('admin_menu', 'wpdocs_register_my_custom_menu_page');
+
 function frmnt_unit()
 {
 	// Checa se já existe a unidade definida (cookie)

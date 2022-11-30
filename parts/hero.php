@@ -2,16 +2,18 @@
 $options = array(
   "slider" => @$args['slider'],
 );
-
+if($options['slider']):
+  $unit = $_SESSION['UNIT'];
 ?>
 <div class="swiper swiper-capao">
   <div class="swiper-wrapper">
-    <?php foreach ($options['slider'] as $slide) :
+    <?php foreach (@$options['slider'] as $slide) :
       $image = @$slide['imagem']['sizes']['2048x2048'];
       $image_mobile = @$slide['imagem_mobile']['sizes']['large'];
       $text = @$slide['texto'];
       $link = ($slide['link']) ? $slide['link']['url'] : "";
       $overlay = ($text) ? "linear-gradient(90deg, #40c18767 15% 86%)," : "";
+      if(@in_array($unit->term_id, @$slide['unidades'])):
     ?>
     <!-- <?php //print_r($slide); ?> -->
       <style scoped>
@@ -31,7 +33,7 @@ $options = array(
           <?php echo (frmnt_pClass($text, "slide__desc")) ?>
         </div>
       </div>
-    <?php endforeach; ?>
+    <?php endif; endforeach; ?>
   </div>
   <div class="swiper-pagination"></div>
   <div class="swiper-button-prev"></div>
@@ -52,3 +54,4 @@ $options = array(
     });
   });
 </script>
+<?php  endif; ?>
