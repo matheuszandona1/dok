@@ -219,6 +219,10 @@ $s-device: 480px;
 
 @import "./especialidades/especialidades";
 
+// blog
+@import "./blog/main";
+@import "./blog/interna";
+
 @import "./vetpoints/main";
 
 .dog-claw {

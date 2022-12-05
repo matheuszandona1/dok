@@ -1,0 +1,155 @@
+.blog-interna {
+  padding-bottom: 160px;
+  &__titulo {
+    max-width: 970px;
+    margin: 0 auto;
+    color: $texto-marrom;
+    letter-spacing: 0.66px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  &__infos {
+    font-size: 21px;
+    letter-spacing: 0.34px;
+    color: #1e1e1e;
+    max-width: 970px;
+    margin: 30px auto;
+    font-style: italic;
+  }
+  &__container {
+    display: flex;
+    max-width: 970px;
+    gap: 80px;
+    margin: 0 auto;
+  }
+  &__post {
+    color: #1e1e1e;
+    max-width: 650px;
+
+    .img {
+      margin-bottom: 30px;
+      img {
+        border-radius: 20px;
+        max-width: 650px;
+        height: 320px;
+        object-fit: cover;
+      }
+    }
+    p {
+      font: normal normal 600 18px/22px AmsiPro-Regular;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    h4 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    h5 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    a {
+      color: $verde-claro;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    &-img_desc {
+      font-weight: 300 !important;
+      margin-bottom: 30px;
+    }
+    &-rating {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      .rating-text {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0.21px;
+        color: #1a2840;
+      }
+      .rating-img {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  &__ads {
+    .ads {
+      background: #d2d2d2;
+      border-radius: 8px;
+      width: 240px;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+  }
+  &__others {
+    padding-top: 150px;
+    &-titulo {
+      color: $texto-marrom;
+      font-size: 30px;
+      font-weight: 900;
+      text-align: center;
+      position: relative;
+      margin-bottom: 60px;
+      &::before {
+        position: absolute;
+        content: url("../assets/prancheta-p.svg");
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -40px;
+      }
+    }
+    &-container {
+      display: flex;
+      gap: 60px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    &-card {
+      max-width: 330px;
+      color: $texto-marrom;
+      img {
+        max-width: 330px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
+        margin-bottom: 20px;
+      }
+      &__titulo {
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 10px;
+      }
+      &__desc {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      &__btn {
+        display: block;
+        text-align: center;
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 10px 0px;
+        border: 1px solid $verde-claro;
+        transition: all 0.3s ease-in;
+        color: $texto-marrom;
+        &:hover {
+          background: $verde-claro;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

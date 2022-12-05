@@ -1,0 +1,100 @@
+.blog {
+  &__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 150px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  &__card {
+    max-width: 730px;
+    margin-bottom: 80px;
+    &--titulo {
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: bold;
+      color: $texto-marrom;
+    }
+    &--img {
+      margin: 30px auto;
+      position: relative;
+      img {
+        max-width: 730px;
+        height: 380px;
+        border-radius: 20px;
+      }
+    }
+    &--btn {
+      position: absolute;
+      right: 50px;
+      bottom: 40px;
+      background: $verde-claro;
+      color: $texto-preto;
+      padding: 10px 40px;
+      border-radius: 6px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      &:hover {
+        background: #01254e;
+        color: #fff;
+      }
+    }
+    &--descricao {
+      color: #1e1e1e;
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }
+  &__sidebar {
+    &--hot {
+      color: $texto-marrom;
+      letter-spacing: 0.32px;
+      font-size: 20px;
+      font-weight: bold;
+      border-bottom: 3px solid #40c187;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      max-width: 200px;
+    }
+    &--card {
+      margin-bottom: 60px;
+      &_title {
+        color: $texto-marrom;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      &_desc {
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.02px;
+        color: #343434;
+        margin-bottom: 20px;
+      }
+      &_btn {
+        color: $verde-claro;
+        position: relative;
+        display: block;
+        &::after {
+          width: 10px;
+          height: 1px;
+          background: $verde-claro;
+          position: absolute;
+          content: "";
+          left: 0;
+          bottom: -5;
+          transition: 0.3s all ease-in;
+        }
+        &:hover {
+          &::after {
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
